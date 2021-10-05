@@ -9,8 +9,8 @@
     {#if $$slots.default}
       <slot></slot>
     {:else}
-      <h1 class="text-white text-8xl">{ pageName }</h1>
-      <h2 class="text-white text-5xl">{ pageTagline }</h2>
+      <h1 class="text-white">{ pageName }</h1>
+      <h2 class="text-white">{ pageTagline }</h2>
     {/if}
     
   </div>

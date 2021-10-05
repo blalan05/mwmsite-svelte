@@ -1,5 +1,5 @@
-<div class="w-screen bg-black flex justify-center pt-8">
-  <div class="max-w-screen-lg w-full">
+<div class="w-screen bg-black flex justify-center pt-12 lg:pt-24">
+  <div class=" w-full max-w-ninety lg:max-w-screen-lg">
     <h3 class="text-white text-4xl font-semibold">Quick Contact</h3>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
       {#each contacts as contact}

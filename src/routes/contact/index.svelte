@@ -1,7 +1,7 @@
 <FeaturedImage imageUrl="'/featured-about.webp'" pageName="Contact Us" pageTagline="Looking Forward to Hearing from You" />
 
-<div class="w-screen flex justify-center bg-blue-800 py-8">
-  <div class="w-full max-w-screen-lg grid grid-cols-2">
+<div class="w-screen flex justify-center bg-blue py-8">
+  <div class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2">
     <div class="m-3"><input class="w-full " type="text" /></div>
     <div class="m-3"><input class="w-full " type="text" /></div>
     <div class="col-span-2 m-3">

@@ -1,8 +1,9 @@
-<div class="w-screen bg-blue-800 px-8">
-  <div class="w-full grid grid-cols-2 lg:grid-cols-4 gap-8 text-white">
+<div class="w-screen bg-blue px-8 pb-12 lg:pb-24 relative">
+  <div style="background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiMwYTBhMGEiPjxwYXRoIGQ9Ik0xMDkzLjQ4IDEzMS44NUwxNzMgOTRhNzYuODUgNzYuODUgMCAwIDEtMzYuNzktMTEuNDZMMCAwaDEyODBsLTEzMS44MSAxMTEuNjhjLTE2LjQ3IDEzLjk2LTM1LjQ3IDIwLjk2LTU0LjcxIDIwLjE3eiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik0xMDk0LjQ0IDExOUwxNzIuNyA2OC43MmE3NC41NCA3NC41NCAwIDAgMS0yNS4xOS01Ljk1TDAgMGgxMjgwbC0xMzMuODUgMTAyYy0xNS44NCAxMi4wOS0zMy43IDE3Ljk1LTUxLjcxIDE3eiIvPjwvZz48L3N2Zz4=); top: 0; height:96px; z-index: 1; backgound-size: 100% 96px; margin-top: -1px;"></div>
+  <div class="w-full grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 text-white">
     {#each services as service}
-    <div>
-      <img src="{service.image}" alt="" />
+    <div class="text-center">
+      <img src="{service.image}" alt="" class="mx-auto filter grayscale hover:grayscale-0 max-w-ninety"/>
       <h4 class="text-2xl">{ service.title }</h4>
       <p>{ service.content }</p>
     </div>
@@ -20,7 +21,7 @@
     {
       title: 'Industry Vendors',
       content: 'We work with many of the commerical retailers. Availability and Savings we can pass on to you.',
-      image: '/service-venders.webp'
+      image: '/service-vendors.webp'
     },
     {
       title: 'Hiring Experts',
