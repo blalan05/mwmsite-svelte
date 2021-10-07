@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/featured-about.webp'" pageName="Vendors" pageTagline="Availability and Cost Savings" />
+<FeaturedImage imageUrl="'/vendors/featured_vendors.webp'" pageName="Vendors" pageTagline="Availability and Cost Savings"><slot></slot></FeaturedImage>
 
 <div class="w-screen flex justify-center">
   <div class="w-full max-w-screen-lg py-8">
@@ -41,6 +41,15 @@
     </div>
   </div>
 </div>
+
+<svelte:head>
+  <title>Vendors | MWM</title>
+  <meta name="description" content="MWM has relationships with leading industry part suppliers, which enables MWM to pass availability and savings to the customer." />
+  <meta
+    name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  />
+</svelte:head>
 
 <style>
   :global(.list-disc) {

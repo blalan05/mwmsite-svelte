@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/featured-about.webp'" pageName="Contact Us" pageTagline="Looking Forward to Hearing from You" />
+<FeaturedImage imageUrl="'/featured-about.webp'" pageName="Contact Us" pageTagline="Looking Forward to Hearing from You"><slot></slot></FeaturedImage>
 
 <div class="w-screen flex justify-center bg-blue py-8">
   <div class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2">
@@ -19,7 +19,14 @@
   </div>
 </div>
 
-
+<svelte:head>
+  <title>Contact | MWM</title>
+  <meta name="description" content="Contact MWM for all your custom made agricultural equipment." />
+  <meta
+    name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  />
+</svelte:head>
 
 <script>
   import FeaturedImage from '$lib/featuredImage.svelte'

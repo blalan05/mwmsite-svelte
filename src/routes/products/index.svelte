@@ -1,64 +1,81 @@
-<div class="w-screen flex justify-center">
+<FeaturedImage imageUrl="'/products/featured-products.webp'" pageName="Products" pageTagline="Custom-made for every need"><slot></slot></FeaturedImage>
+
+<div class="w-screen my-8 flex justify-center">
   <div class="w-full max-w-screen-lg">
-    <h2>Products</h2>
-    <div class="grid grid-cols-3">
+    <div>
       {#each products as product}
-        <div><a href="{ product.link }">{ product.title }</a></div>
+        <div class="mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover" style="background-image: url({ product.image })">
+          <a href="{ product.link }" class="ml-5 block">
+            <h3>{ product.title }</h3>
+          </a>
+        </div>
+        <p>{ product.content }</p>
       {/each}
     </div>
   </div>
 </div>
 
+<svelte:head>
+  <title>Products | MWM</title>
+  <meta name="description" content="MWM has been building custom agricultural equipment for more than 75 years." />
+  <meta
+    name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  />
+</svelte:head>
+
 <script>
+  import FeaturedImage from '$lib/featuredImage.svelte'
+
   const products = [
     {
       title: 'Feed Bodies',
-      link: '',
-      content: '',
-      image: '',
+      link: '/products/feed-bodies',
+      content: 'You can get our custom made to order Feed bodies in variety of lengths, outputs and options.',
+      image: '/products/products-feed-body.webp',
     },
     {
       title: 'Conveyors',
-      link: '',
+      link: '/products/conveyors',
       content: '',
-      image: '',
+      image: '/products/products-conveyors.webp',
     },
     {
       title: 'Distributors',
-      link: '',
+      link: '/products/distributors',
       content: '',
-      image: '',
+      image: '/products/products-distributors.webp',
     },
     {
       title: 'Elevator Legs',
-      link: '',
+      link: '/products/elevators',
       content: '',
-      image: '',
+      image: '/products/products-elevators.webp',
     },
     {
       title: 'Mixers',
-      link: '',
+      link: '/products/mixers',
       content: '',
-      image: '',
+      image: '/products/products-mixers.webp',
     },
     {
-      title: 'Manwalks/Catwalks',
-      link: '',
+      title: 'Catwalks/Manwalks',
+      link: '/products/catwalks',
       content: '',
-      image: '',
+      image: '/products/products-catwalks.webp',
     },
-    {
-      title: 'Towers',
-      link: '',
-      content: '',
-      image: '',
-    },
-    {
-      title: 'Two Ways',
-      link: '',
-      content: '',
-      image: '',
-    },
+    // {
+    //   title: 'Towers',
+    //   link: '',
+    //   content: '',
+    //   image: '',
+    // },
+    // {
+    //   title: 'Two Ways',
+    //   link: '',
+    //   content: '',
+    //   image: '',
+    // },
   ]
 
 </script>

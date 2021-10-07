@@ -6,6 +6,11 @@
       </a>
     </li>
     <li class="flex-grow"></li>
+    <li class="inline-block h-full text-white hover:text-opacity-70">
+      <a href="/" class="h-full flex items-center px-3 text-xl">
+        <span>Home</span>
+      </a>
+    </li>
     {#each menu_items as item}
     <li class="inline-block h-full text-white hover:text-opacity-70">
       <a href="{item.route}" class="h-full flex items-center px-3 text-xl">
@@ -42,11 +47,9 @@
   <div class="text-white text-center">
     <nav>
       <ul>
-        <li>About</li>
-        <li>Vendors</li>
-        <li>Products</li>
-        <li>Services</li>
-        <li>Contact</li>
+        {#each menu_items as item}
+        <li><a href="{item.route}">{item.text}</a></li>
+        {/each}
       </ul>
     </nav>
   </div>
@@ -56,9 +59,9 @@
   import "../styles/tailwind-output.css"
 
   const menu_items = [
-    {text: 'Home', route: '/'},
     {text: 'About', route: '/about'},
     {text: 'Products', route: '/products'},
+    {text: 'Services', route: '/services'},
     {text: 'Vendors', route: '/vendors'},
     {text: 'Contact', route: '/contact'}
   ]

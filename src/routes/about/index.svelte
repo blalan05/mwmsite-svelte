@@ -1,14 +1,4 @@
-<script>
-  import FeaturedImage from '$lib/featuredImage.svelte'
-
-</script>
-
-<FeaturedImage imageUrl="'/featured-about.webp'" pageName="ABOUT MWM" pageTagline="History Rooted in Quality" />
-
-<!-- Department Managers -->
-<div class="deptManager--container">
-
-</div>
+<FeaturedImage imageUrl="'/featured-about.webp'" pageName="ABOUT MWM" pageTagline="History Rooted in Quality"><slot></slot></FeaturedImage>
 
 <!-- History -->
 <div class="w-screen flex justify-center">
@@ -28,5 +18,15 @@
   </div>
 </div>
 
-<style>
-</style>
+<svelte:head>
+  <title>About | MWM</title>
+  <meta name="description" content="MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest." />
+  <meta
+    name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  />
+</svelte:head>
+
+<script>
+  import FeaturedImage from '$lib/featuredImage.svelte'
+</script>
