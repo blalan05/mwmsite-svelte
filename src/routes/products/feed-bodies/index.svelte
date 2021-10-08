@@ -1,11 +1,11 @@
-<FeaturedImage imageUrl="'/products/featured-feed-body.webp'" pageName="Bulk Feed Body Trucks" pageTagline="Customizing To Your Needs"><slot></slot></FeaturedImage>
+<FeaturedImage imageUrl="'/products/featured-feed-body.webp'" pageName="Bulk Feed Body Trucks" pageTagline="Customizing To Your Needs"></FeaturedImage>
 <div class="w-screen flex justify-center py-8">
-  <div class="w-full max-w-screen-lg">
+  <div class="w-full max-w-ninety lg:max-w-screen-lg">
     {@html content.featured}
   </div>
 </div>
 <div class="w-screen flex justify-center py-8 bg-blue">
-  <div class="w-full max-w-screen-lg text-white">
+  <div class="w-full max-w-ninety lg:max-w-screen-lg text-white">
     <h3>Highlights</h3>
     {#each content.highlights as highlight}
       <div>
@@ -35,7 +35,7 @@
   </div>
 </div>
 <div class="w-screen py-8 bg-red flex justify-center">
-  <div class="w-full max-w-screen-lg">
+  <div class="w-full max-w-ninety lg:screen-lg">
     <h3 class="text-white">{ content.options.title }</h3>
     <div class="bg-white py-5">
       <p class="ml-5">{ content.options.content }</p>
@@ -58,6 +58,15 @@
       {/if}
       {/each}
     </div>
+  </div>
+</div>
+<div class="w-screen py-8 flex justify-center">
+  <div class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    {#each gallery as image}
+    <div class="w-full">
+      <img src="{image.url}" alt="" class="w-full" />
+    </div>
+    {/each}
   </div>
 </div>
 
@@ -184,6 +193,49 @@
 
   let openOption = content.options.list[0].title
 
+  const gallery = [
+    {url: '/products/feed-bodies/019.jpg'},
+    {url: '/products/feed-bodies/100_6720.jpg'},
+    {url: '/products/feed-bodies/100_6827.jpg'},
+    {url: '/products/feed-bodies/IMG_5056.jpg'},
+    {url: '/products/feed-bodies/100_4238.jpg'},
+    {url: '/products/feed-bodies/100_6722.jpg'},
+    {url: '/products/feed-bodies/20201112_132849.jpg'},
+    {url: '/products/feed-bodies/IMG_5266.jpg'},
+    {url: '/products/feed-bodies/100_5540.jpg'},
+    {url: '/products/feed-bodies/100_6748.jpg'},
+    {url: '/products/feed-bodies/FG FB 2016 - 3.jpg'},
+    {url: '/products/feed-bodies/MGRF Reeseville 009.jpg'},
+    {url: '/products/feed-bodies/100_5551.jpg'},
+    {url: '/products/feed-bodies/100_6751.jpg'},
+    {url: '/products/feed-bodies/FG FB 2016 - 7.jpg'},
+    {url: '/products/feed-bodies/MGRF Reeseville 028.jpg'},
+    {url: '/products/feed-bodies/100_5669.jpg'},
+    {url: '/products/feed-bodies/100_6752.jpg'},
+    {url: '/products/feed-bodies/FG FB 2016 - 8.jpg'},
+    {url: '/products/feed-bodies/MGRF Reeseville 030.jpg'},
+    {url: '/products/feed-bodies/100_5757.jpg'},
+    {url: '/products/feed-bodies/100_6760.jpg'},
+    {url: '/products/feed-bodies/Flag with Semi.jpg'},
+    {url: '/products/feed-bodies/MGRF Reeseville 215.jpg'},
+    {url: '/products/feed-bodies/100_5764.jpg'},
+    {url: '/products/feed-bodies/100_6765.jpg'},
+    {url: '/products/feed-bodies/IMG_3435.jpg'},
+    {url: '/products/feed-bodies/MGRF Reeseville 232.jpg'},
+    {url: '/products/feed-bodies/100_6073.jpg'},
+    {url: '/products/feed-bodies/100_6767.jpg'},
+    {url: '/products/feed-bodies/IMG_3436.jpg'},
+    {url: '/products/feed-bodies/MGRF Reeseville 237.jpg'},
+    {url: '/products/feed-bodies/100_6632.jpg'},
+    {url: '/products/feed-bodies/100_6771.jpg'},
+    {url: '/products/feed-bodies/IMG_3437.jpg'},
+    {url: '/products/feed-bodies/MGRF Reeseville 246.jpg'},
+    {url: '/products/feed-bodies/100_6634.jpg'},
+    {url: '/products/feed-bodies/100_6772.jpg'},
+    {url: '/products/feed-bodies/IMG_3439.jpg'},
+    {url: '/products/feed-bodies/100_6718.jpg'},
+    {url: '/products/feed-bodies/100_6822.jpg'},
+    {url: '/products/feed-bodies/IMG_3441.jpg'},
+  ]
 
-  
 </script>

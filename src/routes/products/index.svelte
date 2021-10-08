@@ -1,14 +1,14 @@
-<FeaturedImage imageUrl="'/products/featured-products.webp'" pageName="Products" pageTagline="Custom-made for every need"><slot></slot></FeaturedImage>
+<FeaturedImage imageUrl="'/products/featured-products.webp'" pageName="Products" pageTagline="Custom-made for every need"></FeaturedImage>
 
 <div class="w-screen my-8 flex justify-center">
-  <div class="w-full max-w-screen-lg">
+  <div class="w-full max-w-ninety lg:max-w-screen-lg">
     <div>
       {#each products as product}
-        <div class="mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover" style="background-image: url({ product.image })">
-          <a href="{ product.link }" class="ml-5 block">
-            <h3>{ product.title }</h3>
-          </a>
-        </div>
+        <a href="{ product.link }" class="block">
+          <div class="mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover" style="background-image: url({ product.image })">
+            <h3 class="pl-5">{ product.title }</h3>
+          </div>
+        </a>
         <p>{ product.content }</p>
       {/each}
     </div>

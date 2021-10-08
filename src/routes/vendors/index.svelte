@@ -1,7 +1,7 @@
-<FeaturedImage imageUrl="'/vendors/featured_vendors.webp'" pageName="Vendors" pageTagline="Availability and Cost Savings"><slot></slot></FeaturedImage>
+<FeaturedImage imageUrl="'/vendors/featured_vendors.webp'" pageName="Vendors" pageTagline="Availability and Cost Savings"></FeaturedImage>
 
 <div class="w-screen flex justify-center">
-  <div class="w-full max-w-screen-lg py-8">
+  <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">
     <div class="grid grid-cols-3">
       {#each vendors as vendor, i }
         {#if i % 2 == 0}

@@ -7,7 +7,7 @@
         <a href="/" class="inline-block mt-3 rounded bg-white py-3 px-5 text-xl hover:text-white hover:bg-transparent border-solid border-2 border-white">Tell Us About Your Project</a>
       </div>
     </div>
-    <div class="mt-7 w-full lg:max-w-screen-lg mx-auto">
+    <div class="mt-7 w-full max-w-ninety lg:max-w-screen-lg mx-auto">
       <hr class="text-white" />
       <div class="grid lg:grid-cols-3 gap-4 mt-5">
         {#each FeaturedServices as service}
