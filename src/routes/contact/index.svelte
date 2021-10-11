@@ -1,7 +1,7 @@
 <FeaturedImage imageUrl="'/featured-about.webp'" pageName="Contact Us" pageTagline="Looking Forward to Hearing from You"></FeaturedImage>
 
 <div class="w-screen flex justify-center bg-blue py-8">
-  <form method="post" name="contactUs" action="/success" data-netlify="true" class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2">
+  <form method="post" name="contactUs" data-netlify="true" class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2">
       <div class="m-3"><input class="w-full " type="text" placeholder="Name" /></div>
       <div class="m-3"><input class="w-full " type="text" placeholder="Email" /></div>
       <div class="col-span-2 m-3">
@@ -9,7 +9,7 @@
         <textarea class="w-full" rows="5"></textarea>
       </div>
       <div class="col-span-2 text-right">
-        <button class="border-2 border-blue-400 text-blue-400 mr-3 py-2 px-5 rounded-sm font-semibold text-xl">Submit</button>
+        <button type="submit" class="border-2 border-blue-400 text-blue-400 mr-3 py-2 px-5 rounded-sm font-semibold text-xl">Submit</button>
       </div>
     </form>
 </div>
