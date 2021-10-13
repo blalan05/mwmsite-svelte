@@ -1,3 +1,5 @@
+<FeaturedImage imageUrl="'/featured-about.webp'" pageName="Services" pageTagline="We are ready to serve you"></FeaturedImage>
+
 <div class="w-screen flex justify-center py-8">
   <div class="w-full max-w-ninety lg:max-w-screen-lg">
     {#each services as service}
@@ -12,6 +14,8 @@
 </div>
 
 <script>
+  import FeaturedImage from '$lib/featuredImage.svelte'
+
   const services = [
     {title: 'Feed Body Repairs', link: '/services/feed-body-repairs', content: '', image: '/services/services-feed-body-repairs.webp'},
     {title: 'Manufacturing', link: '/services/manufacturing', content: '', image: '/services/services-manufacturing.webp'},
