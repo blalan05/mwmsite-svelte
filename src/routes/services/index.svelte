@@ -13,10 +13,10 @@
 
 <script>
   const services = [
-    {title: 'Feed Body Repairs', link: '/services/feed-body-repairs', content: ''},
-    {title: 'Manufacturing', link: '/services/manufacturing', content: ''},
-    {title: 'Road Crew/Millwrights', link: '/services/road', content: ''},
-    {title: 'Machine Shop', link: '/services/machine-shop', content: ''},
+    {title: 'Feed Body Repairs', link: '/services/feed-body-repairs', content: '', image: '/services/services-feed-body-repairs.webp'},
+    {title: 'Manufacturing', link: '/services/manufacturing', content: '', image: '/services/services-manufacturing.webp'},
+    {title: 'Road Crew/Millwrights', link: '/services/road', content: '', image: '/services/services-millwright.webp'},
+    {title: 'Machine Shop', link: '/services/machine-shop', content: '', image: '/services/services-machining.webp'},
     {title: 'Waterjet Cutting', link: '/services/waterjet', content: ''},
     {title: 'Drafting', link: '/services/drafting', content: ''},
     {title: 'Sandblasting', link: '/services/sandblasting', content: ''},
