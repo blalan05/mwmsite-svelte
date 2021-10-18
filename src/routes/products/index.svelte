@@ -4,13 +4,12 @@
   <div class="w-full max-w-ninety">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-5">
       {#each products as product}
-        <div>
+        <div class="hover:opacity-70">
           <a href="{ product.link }" class="block">
             <div class="mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover" style="background-image: url({ product.image })">
               <h3 class="pl-5 text-4xl">{ product.title }</h3>
             </div>
           </a>
-          <p>{ product.content }</p>
         </div>
       {/each}
     </div>
@@ -33,37 +32,31 @@
     {
       title: 'Feed Bodies',
       link: '/products/feed-bodies',
-      content: 'You can get our custom made to order Feed bodies in variety of lengths, outputs and options.',
       image: '/products/products-feed-body.webp',
     },
     {
       title: 'Conveyors',
       link: '/products/conveyors',
-      content: '',
       image: '/products/products-conveyors.webp',
     },
     {
       title: 'Distributors',
       link: '/products/distributors',
-      content: '',
       image: '/products/products-distributors.webp',
     },
     {
       title: 'Elevator Legs',
       link: '/products/elevators',
-      content: '',
       image: '/products/products-elevators.webp',
     },
     {
       title: 'Mixers',
       link: '/products/mixers',
-      content: '',
       image: '/products/products-mixers.webp',
     },
     {
       title: 'Catwalks/Manwalks',
       link: '/products/catwalks',
-      content: '',
       image: '/products/products-catwalks.webp',
     },
     // {
