@@ -1,15 +1,19 @@
 <FeaturedImage imageUrl="'/featured-about.webp'" pageName="Services" pageTagline="We are ready to serve you"></FeaturedImage>
 
 <div class="w-screen flex justify-center py-8">
-  <div class="w-full max-w-ninety lg:max-w-screen-lg">
-    {#each services as service}
-    <a href="{ service.link }" class="block">
-      <div class="mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover" style="background-image: url({ service.image })">
-        <h3 class="pl-5">{ service.title }</h3>
+  <div class="w-full max-w-ninety">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-5">
+      {#each services as service}
+      <div>
+        <a href="{ service.link }" class="block">
+          <div class="mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover" style="background-image: url({ service.image })">
+            <h3 class="pl-5 text-4xl">{ service.title }</h3>
+          </div>
+        </a>
+        <p>{ service.content }</p>
       </div>
-    </a>
-    <p>{ service.content }</p>
-    {/each}
+      {/each}
+    </div>
   </div>
 </div>
 

@@ -1,15 +1,17 @@
 <FeaturedImage imageUrl="'/products/featured-products.webp'" pageName="Products" pageTagline="Custom-made for every need"></FeaturedImage>
 
 <div class="w-screen my-8 flex justify-center">
-  <div class="w-full max-w-ninety lg:max-w-screen-lg">
-    <div>
+  <div class="w-full max-w-ninety">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-5">
       {#each products as product}
-        <a href="{ product.link }" class="block">
-          <div class="mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover" style="background-image: url({ product.image })">
-            <h3 class="pl-5">{ product.title }</h3>
-          </div>
-        </a>
-        <p>{ product.content }</p>
+        <div>
+          <a href="{ product.link }" class="block">
+            <div class="mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover" style="background-image: url({ product.image })">
+              <h3 class="pl-5 text-4xl">{ product.title }</h3>
+            </div>
+          </a>
+          <p>{ product.content }</p>
+        </div>
       {/each}
     </div>
   </div>
