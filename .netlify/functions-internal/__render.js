@@ -6110,9 +6110,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-7c200aa5.js",
+      file: assets + "/_app/start-bc64ff46.js",
       css: [assets + "/_app/assets/start-d5b4de3e.css"],
-      js: [assets + "/_app/start-7c200aa5.js", assets + "/_app/chunks/vendor-ca2bf3c5.js"]
+      js: [assets + "/_app/start-bc64ff46.js", assets + "/_app/chunks/vendor-6e21d1eb.js"]
     },
     fetched: void 0,
     floc: false,
@@ -6141,7 +6141,7 @@ function init(settings = default_settings) {
 }
 var empty = () => ({});
 var manifest = {
-  assets: [{ "file": "android-chrome-192x192.png", "size": 39804, "type": "image/png" }, { "file": "android-chrome-512x512.png", "size": 198595, "type": "image/png" }, { "file": "apple-touch-icon.png", "size": 35678, "type": "image/png" }, { "file": "bg_al.webp", "size": 26512, "type": "image/webp" }, { "file": "envelope-solid.svg", "size": 700, "type": "image/svg+xml" }, { "file": "favicon-16x16.png", "size": 770, "type": "image/png" }, { "file": "favicon-32x32.png", "size": 2099, "type": "image/png" }, { "file": "favicon.ico", "size": 15406, "type": "image/vnd.microsoft.icon" }, { "file": "featured-about.webp", "size": 202792, "type": "image/webp" }, { "file": "home_banner.webp", "size": 150358, "type": "image/webp" }, { "file": "jakel_logo.webp", "size": 10562, "type": "image/webp" }, { "file": "logo-bw.webp", "size": 2302, "type": "image/webp" }, { "file": "logo.webp", "size": 14460, "type": "image/webp" }, { "file": "mgrf_logo.webp", "size": 27772, "type": "image/webp" }, { "file": "phone-solid.svg", "size": 511, "type": "image/svg+xml" }, { "file": "products/featured-feed-body.png", "size": 3500133, "type": "image/png" }, { "file": "products/featured-feed-body.webp", "size": 205056, "type": "image/webp" }, { "file": "products/featured-products.webp", "size": 85294, "type": "image/webp" }, { "file": "products/feed-bodies/009.webp", "size": 2438802, "type": "image/webp" }, { "file": "products/feed-bodies/019.webp", "size": 242228, "type": "image/webp" }, { "file": "products/feed-bodies/028.webp", "size": 2626094, "type": "image/webp" }, { "file": "products/feed-bodies/030.webp", "size": 4709998, "type": "image/webp" }, { "file": "products/feed-bodies/100_4238.webp", "size": 719936, "type": "image/webp" }, { "file": "products/feed-bodies/100_5540.webp", "size": 54490, "type": "image/webp" }, { "file": "products/feed-bodies/100_5551.webp", "size": 728158, "type": "image/webp" }, { "file": "products/feed-bodies/100_5669.webp", "size": 252010, "type": "image/webp" }, { "file": "products/feed-bodies/100_5757.webp", "size": 218140, "type": "image/webp" }, { "file": "products/feed-bodies/100_5764.webp", "size": 194374, "type": "image/webp" }, { "file": "products/feed-bodies/100_6073.webp", "size": 724934, "type": "image/webp" }, { "file": "products/feed-bodies/100_6632.webp", "size": 673050, "type": "image/webp" }, { "file": "products/feed-bodies/100_6634.webp", "size": 648454, "type": "image/webp" }, { "file": "products/feed-bodies/100_6718.webp", "size": 40732, "type": "image/webp" }, { "file": "products/feed-bodies/100_6720.webp", "size": 92662, "type": "image/webp" }, { "file": "products/feed-bodies/100_6722.webp", "size": 132096, "type": "image/webp" }, { "file": "products/feed-bodies/100_6748.webp", "size": 1218136, "type": "image/webp" }, { "file": "products/feed-bodies/100_6751.webp", "size": 570076, "type": "image/webp" }, { "file": "products/feed-bodies/100_6752.webp", "size": 1036370, "type": "image/webp" }, { "file": "products/feed-bodies/100_6760.webp", "size": 361894, "type": "image/webp" }, { "file": "products/feed-bodies/100_6765.webp", "size": 662952, "type": "image/webp" }, { "file": "products/feed-bodies/100_6767.webp", "size": 902264, "type": "image/webp" }, { "file": "products/feed-bodies/100_6771.webp", "size": 308094, "type": "image/webp" }, { "file": "products/feed-bodies/100_6772.webp", "size": 437654, "type": "image/webp" }, { "file": "products/feed-bodies/100_6822.webp", "size": 117448, "type": "image/webp" }, { "file": "products/feed-bodies/100_6827.webp", "size": 68538, "type": "image/webp" }, { "file": "products/feed-bodies/20201112_132849.webp", "size": 1503798, "type": "image/webp" }, { "file": "products/feed-bodies/215.webp", "size": 363736, "type": "image/webp" }, { "file": "products/feed-bodies/232.webp", "size": 3300990, "type": "image/webp" }, { "file": "products/feed-bodies/237.webp", "size": 623612, "type": "image/webp" }, { "file": "products/feed-bodies/246.webp", "size": 1106104, "type": "image/webp" }, { "file": "products/feed-bodies/FGFB2016-3.webp", "size": 809250, "type": "image/webp" }, { "file": "products/feed-bodies/FGFB2016-7.webp", "size": 764162, "type": "image/webp" }, { "file": "products/feed-bodies/FGFB2016-8.webp", "size": 736216, "type": "image/webp" }, { "file": "products/feed-bodies/FlagwithSemi.webp", "size": 227508, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_3435.webp", "size": 584188, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_3436.webp", "size": 308164, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_3437.webp", "size": 871700, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_3439.webp", "size": 586236, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_3441.webp", "size": 360270, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_5056.webp", "size": 613512, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_5266.webp", "size": 513120, "type": "image/webp" }, { "file": "products/feed-truck-bag-doors.jpg", "size": 84612, "type": "image/jpeg" }, { "file": "products/feed-truck-bag-doors.webp", "size": 75906, "type": "image/webp" }, { "file": "products/products-catwalks.webp", "size": 47358, "type": "image/webp" }, { "file": "products/products-conveyors.webp", "size": 36968, "type": "image/webp" }, { "file": "products/products-distributors.webp", "size": 32028, "type": "image/webp" }, { "file": "products/products-elevators.webp", "size": 28860, "type": "image/webp" }, { "file": "products/products-feed-body.webp", "size": 28700, "type": "image/webp" }, { "file": "products/products-mixers.webp", "size": 20958, "type": "image/webp" }, { "file": "service-experts.webp", "size": 23136, "type": "image/webp" }, { "file": "service-fabrication.webp", "size": 46638, "type": "image/webp" }, { "file": "service-promise.webp", "size": 25976, "type": "image/webp" }, { "file": "service-regions.png", "size": 34370, "type": "image/png" }, { "file": "service-regions.webp", "size": 23448, "type": "image/webp" }, { "file": "service-vendors.webp", "size": 74672, "type": "image/webp" }, { "file": "site.webmanifest", "size": 376, "type": "application/manifest+json" }, { "file": "sitemap.txt", "size": 1015, "type": "text/plain" }, { "file": "vendors/4b_components.webp", "size": 14788, "type": "image/webp" }, { "file": "vendors/abb_dodge.webp", "size": 1278, "type": "image/webp" }, { "file": "vendors/brock.webp", "size": 2534, "type": "image/webp" }, { "file": "vendors/featured_vendors.webp", "size": 145112, "type": "image/webp" }, { "file": "vendors/hayes_stolz.webp", "size": 10334, "type": "image/webp" }, { "file": "vendors/honeyville.webp", "size": 12872, "type": "image/webp" }, { "file": "vendors/nolin_milling.webp", "size": 11720, "type": "image/webp" }, { "file": "vendors/packer_fastener.webp", "size": 17396, "type": "image/webp" }, { "file": "vendors/premier_components.webp", "size": 7224, "type": "image/webp" }, { "file": "vendors/schlagel.webp", "size": 32804, "type": "image/webp" }, { "file": "vendors/tapco.webp", "size": 6450, "type": "image/webp" }],
+  assets: [{ "file": "android-chrome-192x192.png", "size": 39804, "type": "image/png" }, { "file": "android-chrome-512x512.png", "size": 198595, "type": "image/png" }, { "file": "apple-touch-icon.png", "size": 35678, "type": "image/png" }, { "file": "bg_al.webp", "size": 26512, "type": "image/webp" }, { "file": "envelope-solid.svg", "size": 700, "type": "image/svg+xml" }, { "file": "favicon-16x16.png", "size": 770, "type": "image/png" }, { "file": "favicon-32x32.png", "size": 2099, "type": "image/png" }, { "file": "favicon.ico", "size": 15406, "type": "image/vnd.microsoft.icon" }, { "file": "featured-about.webp", "size": 202792, "type": "image/webp" }, { "file": "home_banner.webp", "size": 150358, "type": "image/webp" }, { "file": "jakel_logo.webp", "size": 10562, "type": "image/webp" }, { "file": "logo-bw.webp", "size": 2302, "type": "image/webp" }, { "file": "logo.webp", "size": 14460, "type": "image/webp" }, { "file": "mgrf_logo.webp", "size": 27772, "type": "image/webp" }, { "file": "phone-solid.svg", "size": 511, "type": "image/svg+xml" }, { "file": "products/featured-conveyors.webp", "size": 81304, "type": "image/webp" }, { "file": "products/featured-distributors.webp", "size": 133236, "type": "image/webp" }, { "file": "products/featured-feed-body.webp", "size": 205056, "type": "image/webp" }, { "file": "products/featured-products.webp", "size": 85294, "type": "image/webp" }, { "file": "products/feed-bodies/009.webp", "size": 2438802, "type": "image/webp" }, { "file": "products/feed-bodies/019.webp", "size": 242228, "type": "image/webp" }, { "file": "products/feed-bodies/028.webp", "size": 2626094, "type": "image/webp" }, { "file": "products/feed-bodies/030.webp", "size": 4709998, "type": "image/webp" }, { "file": "products/feed-bodies/100_4238.webp", "size": 719936, "type": "image/webp" }, { "file": "products/feed-bodies/100_5540.webp", "size": 54490, "type": "image/webp" }, { "file": "products/feed-bodies/100_5551.webp", "size": 728158, "type": "image/webp" }, { "file": "products/feed-bodies/100_5669.webp", "size": 252010, "type": "image/webp" }, { "file": "products/feed-bodies/100_5757.webp", "size": 218140, "type": "image/webp" }, { "file": "products/feed-bodies/100_5764.webp", "size": 194374, "type": "image/webp" }, { "file": "products/feed-bodies/100_6073.webp", "size": 724934, "type": "image/webp" }, { "file": "products/feed-bodies/100_6632.webp", "size": 673050, "type": "image/webp" }, { "file": "products/feed-bodies/100_6634.webp", "size": 648454, "type": "image/webp" }, { "file": "products/feed-bodies/100_6718.webp", "size": 40732, "type": "image/webp" }, { "file": "products/feed-bodies/100_6720.webp", "size": 92662, "type": "image/webp" }, { "file": "products/feed-bodies/100_6722.webp", "size": 132096, "type": "image/webp" }, { "file": "products/feed-bodies/100_6748.webp", "size": 1218136, "type": "image/webp" }, { "file": "products/feed-bodies/100_6751.webp", "size": 570076, "type": "image/webp" }, { "file": "products/feed-bodies/100_6752.webp", "size": 1036370, "type": "image/webp" }, { "file": "products/feed-bodies/100_6760.webp", "size": 361894, "type": "image/webp" }, { "file": "products/feed-bodies/100_6765.webp", "size": 662952, "type": "image/webp" }, { "file": "products/feed-bodies/100_6767.webp", "size": 902264, "type": "image/webp" }, { "file": "products/feed-bodies/100_6771.webp", "size": 308094, "type": "image/webp" }, { "file": "products/feed-bodies/100_6772.webp", "size": 437654, "type": "image/webp" }, { "file": "products/feed-bodies/100_6822.webp", "size": 117448, "type": "image/webp" }, { "file": "products/feed-bodies/100_6827.webp", "size": 68538, "type": "image/webp" }, { "file": "products/feed-bodies/20201112_132849.webp", "size": 1503798, "type": "image/webp" }, { "file": "products/feed-bodies/215.webp", "size": 363736, "type": "image/webp" }, { "file": "products/feed-bodies/232.webp", "size": 3300990, "type": "image/webp" }, { "file": "products/feed-bodies/237.webp", "size": 623612, "type": "image/webp" }, { "file": "products/feed-bodies/246.webp", "size": 1106104, "type": "image/webp" }, { "file": "products/feed-bodies/FGFB2016-3.webp", "size": 809250, "type": "image/webp" }, { "file": "products/feed-bodies/FGFB2016-7.webp", "size": 764162, "type": "image/webp" }, { "file": "products/feed-bodies/FGFB2016-8.webp", "size": 736216, "type": "image/webp" }, { "file": "products/feed-bodies/FlagwithSemi.webp", "size": 227508, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_3435.webp", "size": 584188, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_3436.webp", "size": 308164, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_3437.webp", "size": 871700, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_3439.webp", "size": 586236, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_3441.webp", "size": 360270, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_5056.webp", "size": 613512, "type": "image/webp" }, { "file": "products/feed-bodies/IMG_5266.webp", "size": 513120, "type": "image/webp" }, { "file": "products/feed-truck-bag-doors.jpg", "size": 84612, "type": "image/jpeg" }, { "file": "products/feed-truck-bag-doors.webp", "size": 75906, "type": "image/webp" }, { "file": "products/products-catwalks.webp", "size": 47358, "type": "image/webp" }, { "file": "products/products-conveyors.webp", "size": 36968, "type": "image/webp" }, { "file": "products/products-distributors.png", "size": 2658809, "type": "image/png" }, { "file": "products/products-distributors.webp", "size": 32028, "type": "image/webp" }, { "file": "products/products-elevators.webp", "size": 28860, "type": "image/webp" }, { "file": "products/products-feed-body.webp", "size": 28700, "type": "image/webp" }, { "file": "products/products-mixers.webp", "size": 20958, "type": "image/webp" }, { "file": "service-experts.webp", "size": 23136, "type": "image/webp" }, { "file": "service-fabrication.webp", "size": 46638, "type": "image/webp" }, { "file": "service-promise.webp", "size": 25976, "type": "image/webp" }, { "file": "service-regions.png", "size": 34370, "type": "image/png" }, { "file": "service-regions.webp", "size": 23448, "type": "image/webp" }, { "file": "service-vendors.webp", "size": 74672, "type": "image/webp" }, { "file": "services/featured-drafting.webp", "size": 81344, "type": "image/webp" }, { "file": "services/featured-feed-body-repairs.webp", "size": 133672, "type": "image/webp" }, { "file": "services/featured-machining.webp", "size": 161764, "type": "image/webp" }, { "file": "services/featured-manufacturing.webp", "size": 152322, "type": "image/webp" }, { "file": "services/featured-millwright.webp", "size": 279196, "type": "image/webp" }, { "file": "services/featured-waterjet.webp", "size": 136870, "type": "image/webp" }, { "file": "services/services-drafting.webp", "size": 29534, "type": "image/webp" }, { "file": "services/services-feed-body-repairs.webp", "size": 28412, "type": "image/webp" }, { "file": "services/services-machining.webp", "size": 34608, "type": "image/webp" }, { "file": "services/services-manufacturing.webp", "size": 25020, "type": "image/webp" }, { "file": "services/services-millwright.webp", "size": 34300, "type": "image/webp" }, { "file": "services/services-painting.webp", "size": 24928, "type": "image/webp" }, { "file": "services/services-sandblasting.webp", "size": 22590, "type": "image/webp" }, { "file": "services/services-waterjet.webp", "size": 21576, "type": "image/webp" }, { "file": "site.webmanifest", "size": 376, "type": "application/manifest+json" }, { "file": "sitemap.txt", "size": 1015, "type": "text/plain" }, { "file": "vendors/4b_components.webp", "size": 14788, "type": "image/webp" }, { "file": "vendors/abb_dodge.webp", "size": 1278, "type": "image/webp" }, { "file": "vendors/brock.webp", "size": 2534, "type": "image/webp" }, { "file": "vendors/featured_vendors.webp", "size": 145112, "type": "image/webp" }, { "file": "vendors/hayes_stolz.webp", "size": 10334, "type": "image/webp" }, { "file": "vendors/honeyville.webp", "size": 12872, "type": "image/webp" }, { "file": "vendors/nolin_milling.webp", "size": 11720, "type": "image/webp" }, { "file": "vendors/packer_fastener.webp", "size": 17396, "type": "image/webp" }, { "file": "vendors/premier_components.webp", "size": 7224, "type": "image/webp" }, { "file": "vendors/schlagel.webp", "size": 32804, "type": "image/webp" }, { "file": "vendors/tapco.webp", "size": 6450, "type": "image/webp" }],
   layout: "src/routes/__layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -6401,7 +6401,7 @@ var module_lookup = {
     return index;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-842a690d.js", "css": ["assets/pages/__layout.svelte-c4cb123c.css"], "js": ["pages/__layout.svelte-842a690d.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-34fa196b.js", "css": [], "js": ["error.svelte-34fa196b.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-777012aa.js", "css": ["assets/pages/index.svelte-d627191e.css"], "js": ["pages/index.svelte-777012aa.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/products/index.svelte": { "entry": "pages/products/index.svelte-6a7a4dc9.js", "css": [], "js": ["pages/products/index.svelte-6a7a4dc9.js", "chunks/vendor-ca2bf3c5.js", "chunks/featuredImage-159e136a.js"], "styles": [] }, "src/routes/products/distributors/index.svelte": { "entry": "pages/products/distributors/index.svelte-183ea81e.js", "css": [], "js": ["pages/products/distributors/index.svelte-183ea81e.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/products/feed-bodies/index.svelte": { "entry": "pages/products/feed-bodies/index.svelte-9df9940c.js", "css": [], "js": ["pages/products/feed-bodies/index.svelte-9df9940c.js", "chunks/vendor-ca2bf3c5.js", "chunks/featuredImage-159e136a.js"], "styles": [] }, "src/routes/products/conveyors/index.svelte": { "entry": "pages/products/conveyors/index.svelte-89f3c5c9.js", "css": [], "js": ["pages/products/conveyors/index.svelte-89f3c5c9.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/products/elevators/index.svelte": { "entry": "pages/products/elevators/index.svelte-873eb60f.js", "css": [], "js": ["pages/products/elevators/index.svelte-873eb60f.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/products/catwalks/index.svelte": { "entry": "pages/products/catwalks/index.svelte-23581cc1.js", "css": [], "js": ["pages/products/catwalks/index.svelte-23581cc1.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/products/mixers/index.svelte": { "entry": "pages/products/mixers/index.svelte-2df71175.js", "css": [], "js": ["pages/products/mixers/index.svelte-2df71175.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/index.svelte": { "entry": "pages/services/index.svelte-7810b326.js", "css": [], "js": ["pages/services/index.svelte-7810b326.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/feed-body-repairs/index.svelte": { "entry": "pages/services/feed-body-repairs/index.svelte-f72c083a.js", "css": [], "js": ["pages/services/feed-body-repairs/index.svelte-f72c083a.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/hot-dipped-steel/index.svelte": { "entry": "pages/services/hot-dipped-steel/index.svelte-3b8fe91e.js", "css": [], "js": ["pages/services/hot-dipped-steel/index.svelte-3b8fe91e.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/manufacturing/index.svelte": { "entry": "pages/services/manufacturing/index.svelte-8c432259.js", "css": [], "js": ["pages/services/manufacturing/index.svelte-8c432259.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/truck-repairs/index.svelte": { "entry": "pages/services/truck-repairs/index.svelte-9d73827a.js", "css": [], "js": ["pages/services/truck-repairs/index.svelte-9d73827a.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/machine-shop/index.svelte": { "entry": "pages/services/machine-shop/index.svelte-4cb9b525.js", "css": [], "js": ["pages/services/machine-shop/index.svelte-4cb9b525.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/sandblasting/index.svelte": { "entry": "pages/services/sandblasting/index.svelte-66c65027.js", "css": [], "js": ["pages/services/sandblasting/index.svelte-66c65027.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/consulting/index.svelte": { "entry": "pages/services/consulting/index.svelte-9f371364.js", "css": [], "js": ["pages/services/consulting/index.svelte-9f371364.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/drafting/index.svelte": { "entry": "pages/services/drafting/index.svelte-e87e8fda.js", "css": [], "js": ["pages/services/drafting/index.svelte-e87e8fda.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/painting/index.svelte": { "entry": "pages/services/painting/index.svelte-17688bff.js", "css": [], "js": ["pages/services/painting/index.svelte-17688bff.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/waterjet/index.svelte": { "entry": "pages/services/waterjet/index.svelte-9d5384df.js", "css": [], "js": ["pages/services/waterjet/index.svelte-9d5384df.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/parts/index.svelte": { "entry": "pages/services/parts/index.svelte-0ac5e0cf.js", "css": [], "js": ["pages/services/parts/index.svelte-0ac5e0cf.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/services/road/index.svelte": { "entry": "pages/services/road/index.svelte-ae9c174e.js", "css": [], "js": ["pages/services/road/index.svelte-ae9c174e.js", "chunks/vendor-ca2bf3c5.js"], "styles": [] }, "src/routes/contact/index.svelte": { "entry": "pages/contact/index.svelte-5d6757fd.js", "css": [], "js": ["pages/contact/index.svelte-5d6757fd.js", "chunks/vendor-ca2bf3c5.js", "chunks/featuredImage-159e136a.js"], "styles": [] }, "src/routes/vendors/index.svelte": { "entry": "pages/vendors/index.svelte-f14b32ff.js", "css": ["assets/pages/vendors/index.svelte-3c78839b.css"], "js": ["pages/vendors/index.svelte-f14b32ff.js", "chunks/vendor-ca2bf3c5.js", "chunks/featuredImage-159e136a.js"], "styles": [] }, "src/routes/about/index.svelte": { "entry": "pages/about/index.svelte-850790e6.js", "css": [], "js": ["pages/about/index.svelte-850790e6.js", "chunks/vendor-ca2bf3c5.js", "chunks/featuredImage-159e136a.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-1371f3ec.js", "css": ["assets/pages/__layout.svelte-f89ecc7b.css"], "js": ["pages/__layout.svelte-1371f3ec.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0ca55794.js", "css": [], "js": ["error.svelte-0ca55794.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-ae09a635.js", "css": ["assets/pages/index.svelte-d627191e.css"], "js": ["pages/index.svelte-ae09a635.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/products/index.svelte": { "entry": "pages/products/index.svelte-9305b3da.js", "css": [], "js": ["pages/products/index.svelte-9305b3da.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/distributors/index.svelte": { "entry": "pages/products/distributors/index.svelte-d5e47d93.js", "css": [], "js": ["pages/products/distributors/index.svelte-d5e47d93.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/feed-bodies/index.svelte": { "entry": "pages/products/feed-bodies/index.svelte-19613054.js", "css": [], "js": ["pages/products/feed-bodies/index.svelte-19613054.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/conveyors/index.svelte": { "entry": "pages/products/conveyors/index.svelte-1437d66f.js", "css": [], "js": ["pages/products/conveyors/index.svelte-1437d66f.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/elevators/index.svelte": { "entry": "pages/products/elevators/index.svelte-0e5954bd.js", "css": [], "js": ["pages/products/elevators/index.svelte-0e5954bd.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/products/catwalks/index.svelte": { "entry": "pages/products/catwalks/index.svelte-b18d12c9.js", "css": [], "js": ["pages/products/catwalks/index.svelte-b18d12c9.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/products/mixers/index.svelte": { "entry": "pages/products/mixers/index.svelte-6be9f548.js", "css": [], "js": ["pages/products/mixers/index.svelte-6be9f548.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/index.svelte": { "entry": "pages/services/index.svelte-b8dece57.js", "css": [], "js": ["pages/services/index.svelte-b8dece57.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/feed-body-repairs/index.svelte": { "entry": "pages/services/feed-body-repairs/index.svelte-398001bd.js", "css": [], "js": ["pages/services/feed-body-repairs/index.svelte-398001bd.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/hot-dipped-steel/index.svelte": { "entry": "pages/services/hot-dipped-steel/index.svelte-52978186.js", "css": [], "js": ["pages/services/hot-dipped-steel/index.svelte-52978186.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/manufacturing/index.svelte": { "entry": "pages/services/manufacturing/index.svelte-7505e8b7.js", "css": [], "js": ["pages/services/manufacturing/index.svelte-7505e8b7.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/truck-repairs/index.svelte": { "entry": "pages/services/truck-repairs/index.svelte-23844ea4.js", "css": [], "js": ["pages/services/truck-repairs/index.svelte-23844ea4.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/machine-shop/index.svelte": { "entry": "pages/services/machine-shop/index.svelte-ca226688.js", "css": [], "js": ["pages/services/machine-shop/index.svelte-ca226688.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/sandblasting/index.svelte": { "entry": "pages/services/sandblasting/index.svelte-87f2f135.js", "css": [], "js": ["pages/services/sandblasting/index.svelte-87f2f135.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/consulting/index.svelte": { "entry": "pages/services/consulting/index.svelte-a7925032.js", "css": [], "js": ["pages/services/consulting/index.svelte-a7925032.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/drafting/index.svelte": { "entry": "pages/services/drafting/index.svelte-dc5ff997.js", "css": [], "js": ["pages/services/drafting/index.svelte-dc5ff997.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/painting/index.svelte": { "entry": "pages/services/painting/index.svelte-f0a659d4.js", "css": [], "js": ["pages/services/painting/index.svelte-f0a659d4.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/waterjet/index.svelte": { "entry": "pages/services/waterjet/index.svelte-e4d3d87e.js", "css": [], "js": ["pages/services/waterjet/index.svelte-e4d3d87e.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/parts/index.svelte": { "entry": "pages/services/parts/index.svelte-72232d1a.js", "css": [], "js": ["pages/services/parts/index.svelte-72232d1a.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/road/index.svelte": { "entry": "pages/services/road/index.svelte-41cbcaf4.js", "css": [], "js": ["pages/services/road/index.svelte-41cbcaf4.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/contact/index.svelte": { "entry": "pages/contact/index.svelte-064268b7.js", "css": [], "js": ["pages/contact/index.svelte-064268b7.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/vendors/index.svelte": { "entry": "pages/vendors/index.svelte-1467a960.js", "css": ["assets/pages/vendors/index.svelte-3c78839b.css"], "js": ["pages/vendors/index.svelte-1467a960.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/about/index.svelte": { "entry": "pages/about/index.svelte-38a7f724.js", "css": [], "js": ["pages/about/index.svelte-38a7f724.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -6420,7 +6420,7 @@ function render(request, {
 }
 var css$2 = {
   code: ".bar1.svelte-1lo0i5u.svelte-1lo0i5u,.bar2.svelte-1lo0i5u.svelte-1lo0i5u,.bar3.svelte-1lo0i5u.svelte-1lo0i5u{width:35px;height:5px;background-color:#fff;margin:6px 0;transition:0.4s}.navigation.svelte-1lo0i5u.svelte-1lo0i5u{height:100%;width:0;position:fixed;z-index:1;top:0;left:0;background-color:#111;overflow-x:hidden;padding-top:60px;transition:0.5s}.navigation.svelte-1lo0i5u a.svelte-1lo0i5u{padding:8px 8px 8px 32px;text-decoration:none;font-size:25px;color:#818181;display:block;transition:0.3s}.navigation.svelte-1lo0i5u .closebtn.svelte-1lo0i5u{position:absolute;top:0;right:25px;font-size:36px;margin-left:50px}.open.svelte-1lo0i5u.svelte-1lo0i5u{width:40%}",
-  map: `{"version":3,"file":"__layout.svelte","sources":["__layout.svelte"],"sourcesContent":["<nav class=\\"h-16 lg:h-20 w-screen bg-darkGray justify-center flex\\">\\r\\n  <div class=\\"container p-3 inline-block lg:hidden\\" on:click={handleNav}>\\r\\n\\t\\t<div class=\\"bar1\\"></div>\\r\\n\\t\\t<div class=\\"bar2\\"></div>\\r\\n\\t\\t<div class=\\"bar3\\"></div>\\r\\n\\t</div>\\r\\n  <ul class=\\"w-full max-w-screen-lg items-center hidden lg:flex\\">\\r\\n    <li class=\\"inline-block h-full\\">\\r\\n      <a href=\\"/\\" class=\\"inline-block h-5/6 pt-4\\">\\r\\n        <img src=\\"/logo-bw.webp\\" alt=\\"Midwest Welding & Manufacturing Logo\\" class=\\"h-full\\">\\r\\n      </a>\\r\\n    </li>\\r\\n    <li class=\\"flex-grow\\"></li>\\r\\n    <li class=\\"inline-block h-full text-white hover:text-opacity-70\\">\\r\\n      <a href=\\"/\\" class=\\"h-full flex items-center px-3 text-xl\\">\\r\\n        <span>Home</span>\\r\\n      </a>\\r\\n    </li>\\r\\n    {#each menu_items as item}\\r\\n    <li class=\\"inline-block h-full text-white hover:text-opacity-70\\">\\r\\n      <a href=\\"{item.route}\\" class=\\"h-full flex items-center px-3 text-xl\\">\\r\\n        <span>{item.text}</span>\\r\\n      </a>\\r\\n    </li>\\r\\n    {/each}\\r\\n  </ul>\\r\\n</nav>\\r\\n\\r\\n<nav class=\\"navigation\\" id=\\"off-canvas-nav\\" class:open={navOpen}>\\r\\n  <a href=\\"#a\\" class=\\"closebtn\\" on:click={handleNav}>&times;</a>\\r\\n  <ul>\\r\\n    <li><a href=\\"/\\">Home</a></li>\\r\\n    {#each menu_items as item}\\r\\n    <li><a href=\\"{item.route}\\">{item.text}</a></li>\\r\\n    {/each}\\r\\n  </ul>\\r\\n</nav>\\r\\n\\r\\n<div class=\\"main_content\\">\\r\\n  <slot></slot>\\r\\n</div>\\r\\n\\r\\n<footer class=\\"w-screen bg-darkGray grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-8\\">\\r\\n  <div>\\r\\n    <img src=\\"/logo.webp\\" alt=\\"MWM Logo\\" class=\\"max-h-48 mx-auto\\" />\\r\\n  </div>\\r\\n  <div class=\\"text-center md:text-left text-white mb-7\\">\\r\\n    <h3>Midwest Welding & Manufacturing</h3>\\r\\n    <p>202 Harrison Street</p>\\r\\n    <p>P.O. Box 39</p>\\r\\n    <p>Reeseville, WI 53579</p>\\r\\n    <p>Phone: (920) 927-3851</p>\\r\\n    <p>Fax: (920) 927-5551</p>\\r\\n  </div>\\r\\n  <div class=\\"text-white text-center mb-7\\">\\r\\n    <h3 class=\\"text-center\\">Why Choose MWM</h3>\\r\\n    <h4 class=\\"text-center\\">Custom Fabrication</h4>\\r\\n    <h4 class=\\"text-center\\">Industry Vendors</h4>\\r\\n    <h4 class=\\"text-center\\">Hiring Experts</h4>\\r\\n    <h4 class=\\"text-center\\">MWM Promise</h4>\\r\\n  </div>\\r\\n  <div class=\\"text-white text-center\\">\\r\\n    <nav>\\r\\n      <ul>\\r\\n        {#each menu_items as item}\\r\\n        <li><a href=\\"{item.route}\\" class=\\"py-2 text-base inline-block\\">{item.text}</a></li>\\r\\n        {/each}\\r\\n        <li><a href=\\"/sitemap.txt\\">Sitemap</a></li>\\r\\n      </ul>\\r\\n    </nav>\\r\\n  </div>\\r\\n</footer>\\r\\n\\r\\n<script>\\r\\n  import \\"../styles/tailwind-output.css\\"\\r\\n\\r\\n  const menu_items = [\\r\\n    {text: 'About', route: '/about'},\\r\\n    {text: 'Products', route: '/products'},\\r\\n    {text: 'Services', route: '/services'},\\r\\n    {text: 'Vendors', route: '/vendors'},\\r\\n    {text: 'Contact', route: '/contact'}\\r\\n  ]\\r\\n\\r\\n  let navOpen = false\\r\\n\\r\\n  function handleNav() {\\r\\n    navOpen = !navOpen;\\r\\n  }\\r\\n  \\r\\n\\r\\n\\r\\n<\/script>\\r\\n\\r\\n<style>\\r\\n  .bar1, .bar2, .bar3 {\\r\\n  width: 35px;\\r\\n  height: 5px;\\r\\n  background-color: #fff;\\r\\n  margin: 6px 0;\\r\\n  transition: 0.4s;\\r\\n}\\r\\n\\r\\n.navigation {\\r\\n  height: 100%; \\r\\n  width: 0;\\r\\n  position: fixed;\\r\\n  z-index: 1;\\r\\n  top: 0;\\r\\n  left: 0;\\r\\n  background-color: #111; \\r\\n  overflow-x: hidden;\\r\\n  padding-top: 60px;\\r\\n  transition: 0.5s;\\r\\n}\\r\\n\\r\\n.navigation a {\\r\\n  padding: 8px 8px 8px 32px;\\r\\n  text-decoration: none;\\r\\n  font-size: 25px;\\r\\n  color: #818181;\\r\\n  display: block;\\r\\n  transition: 0.3s;\\r\\n}\\r\\n.navigation .closebtn {\\r\\n  position: absolute;\\r\\n  top: 0;\\r\\n  right: 25px;\\r\\n  font-size: 36px;\\r\\n  margin-left: 50px;\\r\\n}\\r\\n.open {\\r\\n\\twidth: 40%;\\r\\n}\\r\\n</style>"],"names":[],"mappings":"AA+FE,mCAAK,CAAE,mCAAK,CAAE,KAAK,8BAAC,CAAC,AACrB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,GAAG,CACX,gBAAgB,CAAE,IAAI,CACtB,MAAM,CAAE,GAAG,CAAC,CAAC,CACb,UAAU,CAAE,IAAI,AAClB,CAAC,AAED,WAAW,8BAAC,CAAC,AACX,MAAM,CAAE,IAAI,CACZ,KAAK,CAAE,CAAC,CACR,QAAQ,CAAE,KAAK,CACf,OAAO,CAAE,CAAC,CACV,GAAG,CAAE,CAAC,CACN,IAAI,CAAE,CAAC,CACP,gBAAgB,CAAE,IAAI,CACtB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,IAAI,CACjB,UAAU,CAAE,IAAI,AAClB,CAAC,AAED,0BAAW,CAAC,CAAC,eAAC,CAAC,AACb,OAAO,CAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CACzB,eAAe,CAAE,IAAI,CACrB,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,OAAO,CACd,OAAO,CAAE,KAAK,CACd,UAAU,CAAE,IAAI,AAClB,CAAC,AACD,0BAAW,CAAC,SAAS,eAAC,CAAC,AACrB,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,CAAC,CACN,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,AACnB,CAAC,AACD,KAAK,8BAAC,CAAC,AACN,KAAK,CAAE,GAAG,AACX,CAAC"}`
+  map: `{"version":3,"file":"__layout.svelte","sources":["__layout.svelte"],"sourcesContent":["<nav class=\\"h-16 lg:h-20 w-screen bg-darkGray justify-center flex\\">\\r\\n  <div class=\\"container p-3 inline-block lg:hidden\\" on:click={handleNav}>\\r\\n\\t\\t<div class=\\"bar1\\"></div>\\r\\n\\t\\t<div class=\\"bar2\\"></div>\\r\\n\\t\\t<div class=\\"bar3\\"></div>\\r\\n\\t</div>\\r\\n  <ul class=\\"w-full max-w-screen-lg items-center hidden lg:flex\\">\\r\\n    <li class=\\"inline-block h-full\\">\\r\\n      <a href=\\"/\\" class=\\"inline-block h-5/6 pt-4\\">\\r\\n        <img src=\\"/logo-bw.webp\\" alt=\\"Midwest Welding & Manufacturing Logo\\" class=\\"h-full\\">\\r\\n      </a>\\r\\n    </li>\\r\\n    <li class=\\"flex-grow\\"></li>\\r\\n    <li class=\\"inline-block h-full text-white hover:text-opacity-70\\">\\r\\n      <a href=\\"/\\" class=\\"h-full flex items-center px-3 text-xl\\">\\r\\n        <span>Home</span>\\r\\n      </a>\\r\\n    </li>\\r\\n    {#each menu_items as item}\\r\\n    <li class=\\"inline-block h-full text-white hover:text-opacity-70\\">\\r\\n      <a href=\\"{item.route}\\" class=\\"h-full flex items-center px-3 text-xl\\">\\r\\n        <span>{item.text}</span>\\r\\n      </a>\\r\\n    </li>\\r\\n    {/each}\\r\\n  </ul>\\r\\n</nav>\\r\\n\\r\\n<nav class=\\"navigation\\" id=\\"off-canvas-nav\\" class:open={navOpen}>\\r\\n  <a href=\\"#a\\" class=\\"closebtn\\" on:click={handleNav}>&times;</a>\\r\\n  <ul>\\r\\n    <li><a href=\\"/\\">Home</a></li>\\r\\n    {#each menu_items as item}\\r\\n    <li><a href=\\"{item.route}\\">{item.text}</a></li>\\r\\n    {/each}\\r\\n  </ul>\\r\\n</nav>\\r\\n\\r\\n<div class=\\"main_content\\">\\r\\n  <slot></slot>\\r\\n</div>\\r\\n\\r\\n<footer class=\\"w-screen bg-darkGray grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-8\\">\\r\\n  <div>\\r\\n    <img src=\\"/logo.webp\\" alt=\\"MWM Logo\\" class=\\"max-h-48 mx-auto\\" />\\r\\n  </div>\\r\\n  <div class=\\"text-center md:text-left text-white mb-7\\">\\r\\n    <h3>Midwest Welding & Manufacturing</h3>\\r\\n    <p>202 Harrison Street</p>\\r\\n    <p>P.O. Box 39</p>\\r\\n    <p>Reeseville, WI 53579</p>\\r\\n    <p>Phone: (920) 927-3851</p>\\r\\n    <p>Fax: (920) 927-5551</p>\\r\\n  </div>\\r\\n  <div class=\\"text-white text-center mb-7\\">\\r\\n    <h3 class=\\"text-center\\">Why Choose MWM</h3>\\r\\n    <h4 class=\\"text-center\\">Custom Fabrication</h4>\\r\\n    <h4 class=\\"text-center\\">Industry Vendors</h4>\\r\\n    <h4 class=\\"text-center\\">Hiring Experts</h4>\\r\\n    <h4 class=\\"text-center\\">MWM Promise</h4>\\r\\n  </div>\\r\\n  <div class=\\"text-white text-center\\">\\r\\n    <nav>\\r\\n      <ul>\\r\\n        {#each menu_items as item}\\r\\n        <li><a href=\\"{item.route}\\" class=\\"py-2 text-base inline-block\\">{item.text}</a></li>\\r\\n        {/each}\\r\\n      </ul>\\r\\n    </nav>\\r\\n  </div>\\r\\n</footer>\\r\\n\\r\\n<script>\\r\\n  import \\"../styles/tailwind-output.css\\"\\r\\n\\r\\n  const menu_items = [\\r\\n    {text: 'About', route: '/about'},\\r\\n    {text: 'Products', route: '/products'},\\r\\n    {text: 'Services', route: '/services'},\\r\\n    {text: 'Vendors', route: '/vendors'},\\r\\n    {text: 'Contact', route: '/contact'}\\r\\n  ]\\r\\n\\r\\n  let navOpen = false\\r\\n\\r\\n  function handleNav() {\\r\\n    navOpen = !navOpen;\\r\\n  }\\r\\n  \\r\\n\\r\\n\\r\\n<\/script>\\r\\n\\r\\n<style>\\r\\n  .bar1, .bar2, .bar3 {\\r\\n  width: 35px;\\r\\n  height: 5px;\\r\\n  background-color: #fff;\\r\\n  margin: 6px 0;\\r\\n  transition: 0.4s;\\r\\n}\\r\\n\\r\\n.navigation {\\r\\n  height: 100%; \\r\\n  width: 0;\\r\\n  position: fixed;\\r\\n  z-index: 1;\\r\\n  top: 0;\\r\\n  left: 0;\\r\\n  background-color: #111; \\r\\n  overflow-x: hidden;\\r\\n  padding-top: 60px;\\r\\n  transition: 0.5s;\\r\\n}\\r\\n\\r\\n.navigation a {\\r\\n  padding: 8px 8px 8px 32px;\\r\\n  text-decoration: none;\\r\\n  font-size: 25px;\\r\\n  color: #818181;\\r\\n  display: block;\\r\\n  transition: 0.3s;\\r\\n}\\r\\n.navigation .closebtn {\\r\\n  position: absolute;\\r\\n  top: 0;\\r\\n  right: 25px;\\r\\n  font-size: 36px;\\r\\n  margin-left: 50px;\\r\\n}\\r\\n.open {\\r\\n\\twidth: 40%;\\r\\n}\\r\\n</style>"],"names":[],"mappings":"AA8FE,mCAAK,CAAE,mCAAK,CAAE,KAAK,8BAAC,CAAC,AACrB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,GAAG,CACX,gBAAgB,CAAE,IAAI,CACtB,MAAM,CAAE,GAAG,CAAC,CAAC,CACb,UAAU,CAAE,IAAI,AAClB,CAAC,AAED,WAAW,8BAAC,CAAC,AACX,MAAM,CAAE,IAAI,CACZ,KAAK,CAAE,CAAC,CACR,QAAQ,CAAE,KAAK,CACf,OAAO,CAAE,CAAC,CACV,GAAG,CAAE,CAAC,CACN,IAAI,CAAE,CAAC,CACP,gBAAgB,CAAE,IAAI,CACtB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,IAAI,CACjB,UAAU,CAAE,IAAI,AAClB,CAAC,AAED,0BAAW,CAAC,CAAC,eAAC,CAAC,AACb,OAAO,CAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,IAAI,CACzB,eAAe,CAAE,IAAI,CACrB,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,OAAO,CACd,OAAO,CAAE,KAAK,CACd,UAAU,CAAE,IAAI,AAClB,CAAC,AACD,0BAAW,CAAC,SAAS,eAAC,CAAC,AACrB,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,CAAC,CACN,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,AACnB,CAAC,AACD,KAAK,8BAAC,CAAC,AACN,KAAK,CAAE,GAAG,AACX,CAAC"}`
 };
 var _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   const menu_items = [
@@ -6458,8 +6458,7 @@ var _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     <h4 class="${"text-center"}">Industry Vendors</h4>
     <h4 class="${"text-center"}">Hiring Experts</h4>
     <h4 class="${"text-center"}">MWM Promise</h4></div>
-  <div class="${"text-white text-center"}"><nav><ul>${each(menu_items, (item) => `<li><a${add_attribute("href", item.route, 0)} class="${"py-2 text-base inline-block"}">${escape(item.text)}</a></li>`)}
-        <li><a href="${"/sitemap.txt"}">Sitemap</a></li></ul></nav></div>
+  <div class="${"text-white text-center"}"><nav><ul>${each(menu_items, (item) => `<li><a${add_attribute("href", item.route, 0)} class="${"py-2 text-base inline-block"}">${escape(item.text)}</a></li>`)}</ul></nav></div>
 </footer>`;
 });
 var __layout = /* @__PURE__ */ Object.freeze({
@@ -6494,7 +6493,7 @@ var error = /* @__PURE__ */ Object.freeze({
 });
 var css$1 = {
   code: ".home_banner.svelte-13mry3n{background-image:url('/home_banner.webp');background-position:center;background-repeat:no-repeat;background-size:cover}",
-  map: `{"version":3,"file":"homeBanner.svelte","sources":["homeBanner.svelte"],"sourcesContent":["<div class=\\"w-screen home_banner\\">\\r\\n  <div class=\\"w-full py-12 lg:py-24\\">\\r\\n    <div class=\\"bg-blue-transparent py-8 flex justify-center flex-col\\">\\r\\n      <h1 class=\\"text-white font-extrabold uppercase text-shadow text-center pb-2 mb-5\\">Midwest Welding & Manufacturing</h1>\\r\\n      <h2 class=\\"text-white font-extrabold uppercase text-shadow text-center pb-2 mb-14\\">Repairing Your Past...Fabricating Your Future</h2>\\r\\n      <div class=\\"text-center\\">\\r\\n        <a href=\\"/\\" class=\\"inline-block mt-3 rounded bg-white py-3 px-5 text-xl hover:text-white hover:bg-transparent border-solid border-2 border-white\\">Tell Us About Your Project</a>\\r\\n      </div>\\r\\n    </div>\\r\\n    <div class=\\"mt-7 w-full max-w-ninety lg:max-w-screen-lg mx-auto\\">\\r\\n      <hr class=\\"text-white\\" />\\r\\n      <div class=\\"grid lg:grid-cols-3 gap-4 mt-5\\">\\r\\n        {#each FeaturedServices as service}\\r\\n          <div class=\\"text-white bg-red-transparent bg-opacity-70 p-5 mt-0 lg:mt-5\\">\\r\\n            <h3 class=\\"text-\\">{ service.title }</h3>\\r\\n            <p class=\\"leading-relaxed\\">{ service.content }</p>\\r\\n          </div>\\r\\n        {/each}\\r\\n      </div>\\r\\n    </div>\\r\\n  </div>\\r\\n</div>\\r\\n\\r\\n<style>\\r\\n  .home_banner {\\r\\n    background-image: url('/home_banner.webp');\\r\\n    background-position: center;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n  }\\r\\n</style>\\r\\n\\r\\n<script>\\r\\n  const FeaturedServices = [\\r\\n    {\\r\\n      title: 'Field Service',\\r\\n      content: 'Whether a difficult repair or equipment installation, our teams are ready for the job.'\\r\\n    },\\r\\n    {\\r\\n      title: 'Shop Services',\\r\\n      content: 'Tools and Fabrication ready to accomplish simple or complex jobs.'\\r\\n    },\\r\\n    {\\r\\n      title: 'Feed Body Services',\\r\\n      content: 'Our custom made-to-order Bulk Feed Body Trucks or Semis are perfectly engineered.'\\r\\n    }\\r\\n  ]\\r\\n\\r\\n<\/script>"],"names":[],"mappings":"AAwBE,YAAY,eAAC,CAAC,AACZ,gBAAgB,CAAE,IAAI,mBAAmB,CAAC,CAC1C,mBAAmB,CAAE,MAAM,CAC3B,iBAAiB,CAAE,SAAS,CAC5B,eAAe,CAAE,KAAK,AACxB,CAAC"}`
+  map: `{"version":3,"file":"homeBanner.svelte","sources":["homeBanner.svelte"],"sourcesContent":["<div class=\\"w-screen home_banner\\">\\r\\n  <div class=\\"w-full py-12 lg:py-24\\">\\r\\n    <div class=\\"bg-blue-transparent py-8 flex justify-center flex-col\\">\\r\\n      <h1 class=\\"text-white font-extrabold uppercase text-shadow text-center pb-2 mb-5\\">Midwest Welding & Manufacturing</h1>\\r\\n      <h2 class=\\"text-white font-extrabold uppercase text-shadow text-center pb-2 mb-14\\">Repairing Your Past...Fabricating Your Future</h2>\\r\\n      <div class=\\"text-center\\">\\r\\n        <a href=\\"/contact\\" class=\\"inline-block mt-3 rounded bg-white py-3 px-5 text-xl hover:text-white hover:bg-transparent border-solid border-2 border-white\\">Tell Us About Your Project</a>\\r\\n      </div>\\r\\n    </div>\\r\\n    <div class=\\"mt-7 w-full max-w-ninety lg:max-w-screen-lg mx-auto\\">\\r\\n      <hr class=\\"text-white\\" />\\r\\n      <div class=\\"grid lg:grid-cols-3 gap-4 mt-5\\">\\r\\n        {#each FeaturedServices as service}\\r\\n          <div class=\\"text-white bg-red-transparent bg-opacity-70 p-5 mt-0 lg:mt-5\\">\\r\\n            <h3 class=\\"text-\\">{ service.title }</h3>\\r\\n            <p class=\\"leading-relaxed\\">{ service.content }</p>\\r\\n          </div>\\r\\n        {/each}\\r\\n      </div>\\r\\n    </div>\\r\\n  </div>\\r\\n</div>\\r\\n\\r\\n<style>\\r\\n  .home_banner {\\r\\n    background-image: url('/home_banner.webp');\\r\\n    background-position: center;\\r\\n    background-repeat: no-repeat;\\r\\n    background-size: cover;\\r\\n  }\\r\\n</style>\\r\\n\\r\\n<script>\\r\\n  const FeaturedServices = [\\r\\n    {\\r\\n      title: 'Field Service',\\r\\n      content: 'Whether a difficult repair or equipment installation, our teams are ready for the job.'\\r\\n    },\\r\\n    {\\r\\n      title: 'Shop Services',\\r\\n      content: 'Tools and Fabrication ready to accomplish simple or complex jobs.'\\r\\n    },\\r\\n    {\\r\\n      title: 'Feed Body Services',\\r\\n      content: 'Our custom made-to-order Bulk Feed Body Trucks or Semis are perfectly engineered.'\\r\\n    }\\r\\n  ]\\r\\n\\r\\n<\/script>"],"names":[],"mappings":"AAwBE,YAAY,eAAC,CAAC,AACZ,gBAAgB,CAAE,IAAI,mBAAmB,CAAC,CAC1C,mBAAmB,CAAE,MAAM,CAC3B,iBAAiB,CAAE,SAAS,CAC5B,eAAe,CAAE,KAAK,AACxB,CAAC"}`
 };
 var HomeBanner = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   const FeaturedServices = [
@@ -6514,7 +6513,7 @@ var HomeBanner = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   $$result.css.add(css$1);
   return `<div class="${"w-screen home_banner svelte-13mry3n"}"><div class="${"w-full py-12 lg:py-24"}"><div class="${"bg-blue-transparent py-8 flex justify-center flex-col"}"><h1 class="${"text-white font-extrabold uppercase text-shadow text-center pb-2 mb-5"}">Midwest Welding &amp; Manufacturing</h1>
       <h2 class="${"text-white font-extrabold uppercase text-shadow text-center pb-2 mb-14"}">Repairing Your Past...Fabricating Your Future</h2>
-      <div class="${"text-center"}"><a href="${"/"}" class="${"inline-block mt-3 rounded bg-white py-3 px-5 text-xl hover:text-white hover:bg-transparent border-solid border-2 border-white"}">Tell Us About Your Project</a></div></div>
+      <div class="${"text-center"}"><a href="${"/contact"}" class="${"inline-block mt-3 rounded bg-white py-3 px-5 text-xl hover:text-white hover:bg-transparent border-solid border-2 border-white"}">Tell Us About Your Project</a></div></div>
     <div class="${"mt-7 w-full max-w-ninety lg:max-w-screen-lg mx-auto"}"><hr class="${"text-white"}">
       <div class="${"grid lg:grid-cols-3 gap-4 mt-5"}">${each(FeaturedServices, (service) => `<div class="${"text-white bg-red-transparent bg-opacity-70 p-5 mt-0 lg:mt-5"}"><h3 class="${"text-"}">${escape(service.title)}</h3>
             <p class="${"leading-relaxed"}">${escape(service.content)}</p>
@@ -6545,7 +6544,7 @@ var HomeQuickContact = create_ssr_component(($$result, $$props, $$bindings, slot
   return `<div class="${"w-screen bg-black flex justify-center pt-8 lg:pt-8"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg"}"><h3 class="${"text-white text-4xl font-semibold"}">Quick Contact</h3>
     <div class="${"grid grid-cols-1 lg:grid-cols-3 gap-4"}">${each(contacts, (contact) => `<div class="${"p-4 text-blue bg-gray-400 bg-center bg-cover"}" style="${"background-image: url(/bg_al.webp)"}"><h4 class="${"text-3xl font-semibold text-shadow"}">${escape(contact.title)}</h4>
         <p class="${"text-xl font-bold text-shadow"}">${escape(contact.contact)}</p>
-        <p class="${"text-xl"}"><a class="${"inline-block font-bold py-2 text-shadow"}" rel="${"external"}" href="${"tel:" + escape(contact.contact)}"><img src="${"/phone-solid.svg"}" alt="${"call"}" class="${"w-5 inline-block"}">
+        <p class="${"text-xl"}"><a class="${"inline-block font-bold py-2 text-shadow"}" rel="${"external"}" href="${"tel:" + escape(contact.phone)}"><img src="${"/phone-solid.svg"}" alt="${"call"}" class="${"w-5 inline-block"}">
             ${escape(contact.phone)}
           </a></p>
         <p class="${"text-xl"}"><a class="${"inline-block font-bold py-2 text-shadow"}" rel="${"external"}" href="${"mailto:" + escape(contact.email)}"><img src="${"/envelope-solid.svg"}" alt="${"email"}" class="${"text-xs w-5 inline-block"}">
@@ -6577,7 +6576,7 @@ var ServiceHighligt = create_ssr_component(($$result, $$props, $$bindings, slots
       image: "/service-promise.webp"
     }
   ];
-  return `<div class="${"w-screen bg-blue px-8 pb-12 lg:pb-24 relative"}"><div style="${"background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiMwYTBhMGEiPjxwYXRoIGQ9Ik0xMDkzLjQ4IDEzMS44NUwxNzMgOTRhNzYuODUgNzYuODUgMCAwIDEtMzYuNzktMTEuNDZMMCAwaDEyODBsLTEzMS44MSAxMTEuNjhjLTE2LjQ3IDEzLjk2LTM1LjQ3IDIwLjk2LTU0LjcxIDIwLjE3eiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik0xMDk0LjQ0IDExOUwxNzIuNyA2OC43MmE3NC41NCA3NC41NCAwIDAgMS0yNS4xOS01Ljk1TDAgMGgxMjgwbC0xMzMuODUgMTAyYy0xNS44NCAxMi4wOS0zMy43IDE3Ljk1LTUxLjcxIDE3eiIvPjwvZz48L3N2Zz4=); top: 0; height:96px; z-index: 1; backgound-size: 100% 96px; margin-top: -1px;"}"></div>
+  return `<div class="${"w-screen bg-blue px-8 pb-12 lg:pb-24 relative"}"><div style="${"background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiMwYTBhMGEiPjxwYXRoIGQ9Ik0xMDkzLjQ4IDEzMS44NUwxNzMgOTRhNzYuODUgNzYuODUgMCAwIDEtMzYuNzktMTEuNDZMMCAwaDEyODBsLTEzMS44MSAxMTEuNjhjLTE2LjQ3IDEzLjk2LTM1LjQ3IDIwLjk2LTU0LjcxIDIwLjE3eiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik0xMDk0LjQ0IDExOUwxNzIuNyA2OC43MmE3NC41NCA3NC41NCAwIDAgMS0yNS4xOS01Ljk1TDAgMGgxMjgwbC0xMzMuODUgMTAyYy0xNS44NCAxMi4wOS0zMy43IDE3Ljk1LTUxLjcxIDE3eiIvPjwvZz48L3N2Zz4=); top: 0; height:100px; z-index: 1; background-size: 100% 100px; margin-top: -1px;"}"></div>
   <div class="${"w-full grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 text-white"}">${each(services, (service) => `<div class="${"text-center"}"><img${add_attribute("src", service.image, 0)} alt="${""}" class="${"mx-auto filter grayscale hover:grayscale-0 max-w-ninety"}">
       <h4 class="${"text-2xl"}">${escape(service.title)}</h4>
       <p>${escape(service.content)}</p>
@@ -6623,37 +6622,31 @@ var Products = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     {
       title: "Feed Bodies",
       link: "/products/feed-bodies",
-      content: "You can get our custom made to order Feed bodies in variety of lengths, outputs and options.",
       image: "/products/products-feed-body.webp"
     },
     {
       title: "Conveyors",
       link: "/products/conveyors",
-      content: "",
       image: "/products/products-conveyors.webp"
     },
     {
       title: "Distributors",
       link: "/products/distributors",
-      content: "",
       image: "/products/products-distributors.webp"
     },
     {
       title: "Elevator Legs",
       link: "/products/elevators",
-      content: "",
       image: "/products/products-elevators.webp"
     },
     {
       title: "Mixers",
       link: "/products/mixers",
-      content: "",
       image: "/products/products-mixers.webp"
     },
     {
       title: "Catwalks/Manwalks",
       link: "/products/catwalks",
-      content: "",
       image: "/products/products-catwalks.webp"
     }
   ];
@@ -6663,9 +6656,9 @@ var Products = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     pageTagline: "Custom-made for every need"
   }, {}, {})}
 
-<div class="${"w-screen my-8 flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg"}"><div>${each(products, (product) => `<a${add_attribute("href", product.link, 0)} class="${"block"}"><div class="${"mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover"}" style="${"background-image: url(" + escape(product.image) + ")"}"><h3 class="${"pl-5"}">${escape(product.title)}</h3>
-          </div></a>
-        <p>${escape(product.content)}</p>`)}</div></div></div>
+<div class="${"w-screen my-8 flex justify-center"}"><div class="${"w-full max-w-ninety"}"><div class="${"grid grid-cols-1 lg:grid-cols-2 gap-x-5"}">${each(products, (product) => `<div class="${"hover:opacity-70"}"><a${add_attribute("href", product.link, 0)} class="${"block"}"><div class="${"mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover"}" style="${"background-image: url(" + escape(product.image) + ")"}"><h3 class="${"pl-5 text-4xl"}">${escape(product.title)}</h3>
+            </div></a>
+        </div>`)}</div></div></div>
 
 ${$$result.head += `${$$result.title = `<title>Products | MWM</title>`, ""}<meta name="${"description"}" content="${"MWM has been building custom agricultural equipment for more than 75 years."}" data-svelte="svelte-da5ia5"><meta name="${"robots"}" content="${"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"}" data-svelte="svelte-da5ia5">`, ""}`;
 });
@@ -6675,7 +6668,14 @@ var index$m = /* @__PURE__ */ Object.freeze({
   "default": Products
 });
 var Distributors = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div>Distributors</div>`;
+  return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
+    imageUrl: "'/products/featured-distributors.webp'",
+    pageName: "Distributors",
+    pageTagline: ""
+  }, {}, {})}
+
+<div class="${"w-screen flex justify-center py-8"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg"}"></div>
+</div>`;
 });
 var index$l = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -6935,7 +6935,35 @@ var index$k = /* @__PURE__ */ Object.freeze({
   "default": Feed_bodies
 });
 var Conveyors = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div>Conveyors</div>`;
+  return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
+    imageUrl: "'/products/featured-conveyors.webp'",
+    pageName: "Conveyors",
+    pageTagline: "We like to Move it, Move it"
+  }, {}, {})}
+<div class="${"w-screen flex justify-center py-8"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg"}"><p>MWM has manufactured conveyors for many products in many industries. Our conveyors can be found underground, ground-level, and high in the air. The conveyors are operating in Farms, Feed Mills, Grain Mills, Fertilizer Plants, Milorganite Plants, Chicken Farms and Plants, Hemp Plants, Ethanol Plants, Industrial wood furnace, trade shows, and many more applications.</p></div></div>
+
+<div class="${"w-screen bg-blue pb-8 relative"}"><div style="${"background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmYiPjxwYXRoIGQ9Ik0xMDkzLjQ4IDEzMS44NUwxNzMgOTRhNzYuODUgNzYuODUgMCAwIDEtMzYuNzktMTEuNDZMMCAwaDEyODBsLTEzMS44MSAxMTEuNjhjLTE2LjQ3IDEzLjk2LTM1LjQ3IDIwLjk2LTU0LjcxIDIwLjE3eiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik0xMDk0LjQ0IDExOUwxNzIuNyA2OC43MmE3NC41NCA3NC41NCAwIDAgMS0yNS4xOS01Ljk1TDAgMGgxMjgwbC0xMzMuODUgMTAyYy0xNS44NCAxMi4wOS0zMy43IDE3Ljk1LTUxLjcxIDE3eiIvPjwvZz48L3N2Zz4=); top: 0; height:100px; z-index: 1; background-size: 100% 100px; margin-top: -1px;"}"></div>
+  <div class="${"flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg text-white"}"><h3>Models</h3>
+      <div class="${"grid grid-cols-1 lg:grid-cols-3 gap-x-4"}"><div><h4 class="${"text-center"}">Belt</h4>
+          <p>Description about pros and cons of a belt conveyor.</p></div>
+        <div><h4 class="${"text-center"}">Chain and Paddle (Spee-d-flow)</h4>
+          <p>Description about pros and cons of a belt conveyor.</p></div>
+        <div><h4 class="${"text-center"}">Auger</h4>
+          <p>Description about pros and cons of a belt conveyor.</p></div></div></div></div></div>
+
+<div class="${"w-screen flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg py-8"}"><h3>Features</h3>
+    <h4>Custom Engineered</h4>
+    <p>You can order any length and any width that meets product moving needs.</p>
+    <h4>Large Range in Capacities</h4>
+    <p>Our conveyors will provide between 1,000 BPH (Bushels Per Hour) - 20,000 BPH.</p>
+    <h4>Liners</h4>
+    <p>We can line your conveyors with AR (abrasive resistant) Steel, Ceramic Tile or Rhino Liner.</p></div></div>
+
+<div class="${"w-screen bg-red flex justify-center py-8 text-white"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg"}"><h3>Options</h3>
+    <p>Incline conveyor upon request. Other sizes available. Various lining materials are available.
+    </p>
+    <p>Link to Towers here?</p></div>
+</div>`;
 });
 var index$j = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -6971,67 +6999,69 @@ var Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     {
       title: "Feed Body Repairs",
       link: "/services/feed-body-repairs",
-      content: ""
+      image: "/services/services-feed-body-repairs.webp"
     },
     {
       title: "Manufacturing",
       link: "/services/manufacturing",
-      content: ""
+      image: "/services/services-manufacturing.webp"
     },
     {
       title: "Road Crew/Millwrights",
       link: "/services/road",
-      content: ""
+      image: "/services/services-millwright.webp"
     },
     {
       title: "Machine Shop",
       link: "/services/machine-shop",
-      content: ""
+      image: "/services/services-machining.webp"
     },
     {
       title: "Waterjet Cutting",
       link: "/services/waterjet",
-      content: ""
+      image: "/services/services-waterjet.webp"
     },
     {
       title: "Drafting",
       link: "/services/drafting",
-      content: ""
+      image: "/services/services-drafting.webp"
     },
     {
       title: "Sandblasting",
       link: "/services/sandblasting",
-      content: ""
+      image: "/services/services-sandblasting.webp"
     },
     {
       title: "Painting",
       link: "/services/painting",
-      content: ""
+      image: "/services/services-painting.webp"
     },
     {
       title: "Hot-dipped Steel",
-      link: "/services/hot-dipped-steel",
-      content: ""
+      link: "/services/hot-dipped-steel"
     },
     {
       title: "Truck Repairs",
-      link: "/services/truck-repairs",
-      content: ""
+      link: "/services/truck-repairs"
     },
     {
       title: "Buy Parts/Materials",
-      link: "/services/parts",
-      content: ""
+      link: "/services/parts"
     },
     {
       title: "Advising/Consulting",
-      link: "/services/consulting",
-      content: ""
+      link: "/services/consulting"
     }
   ];
-  return `<div class="${"w-screen flex justify-center py-8"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg"}">${each(services, (service) => `<a${add_attribute("href", service.link, 0)} class="${"block"}"><div class="${"mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover"}" style="${"background-image: url(" + escape(service.image) + ")"}"><h3 class="${"pl-5"}">${escape(service.title)}</h3>
-      </div></a>
-    <p>${escape(service.content)}</p>`)}</div>
+  return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
+    imageUrl: "'/featured-about.webp'",
+    pageName: "Services",
+    pageTagline: "We are ready to serve you"
+  }, {}, {})}
+
+<div class="${"w-screen flex justify-center py-8"}"><div class="${"w-full max-w-ninety"}"><div class="${"grid grid-cols-1 lg:grid-cols-2 gap-x-5"}">${each(services, (service) => `<div class="${"hover:opacity-70"}"><a${add_attribute("href", service.link, 0)} class="${"block"}"><div class="${"mt-8 py-20 bg-blue text-white bg-center bg-no-repeat bg-cover"}" style="${"background-image: url(" + escape(service.image) + ")"}"><h3 class="${"pl-5 text-4xl"}">${escape(service.title)}</h3>
+          </div></a>
+      </div>`)}</div></div>
 </div>`;
 });
 var index$f = /* @__PURE__ */ Object.freeze({
@@ -7040,7 +7070,30 @@ var index$f = /* @__PURE__ */ Object.freeze({
   "default": Services
 });
 var Feed_body_repairs = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return ``;
+  return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
+    imageUrl: "'/services/featured-feed-body-repairs.webp'",
+    pageName: "Feed Body Repairs",
+    pageTagline: "Keeping the Cows Feed"
+  }, {}, {})}
+
+<div class="${"w-screen flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg py-8"}"><p class="${"py-2"}">Large or small repair, MWM-made Feed Body (or Jakel Feed Body, or MGRF Feed Body) or a competitor\u2019s feed body, emergency or preventative maintenance, our dedicated team of Repair technicians have the experience to get your bulk feed body units back on the road in a timely manner.</p>
+    <p class="${"py-2"}">If your drivers have been jousting, stabbing bridges,  or plugging the discharge augers, we\u2019ve seen it before. If your driver lost Chicken against a grain bin, rolled a truck in a ditch, or if you\u2019ve had a truck spontaneously combust, we\u2019ve seen it before. If your truck gets tired before your box, we can re-mount your box on a new chassis.</p>
+    <p class="${"py-2"}">Our Feed Body Repair services include:</p>
+    <ul class="${"list-disc pl-8"}"><li>Remote Control Setup</li>
+      <li>Remote Control Troubleshooting</li>
+      <li>Remote Control Servicing (Loaner maybe available)</li>
+      <li>Hydraulic Valve Repairs</li>
+      <li>Hydraulic Pump Repairs</li>
+      <li>Hydraulic Hoses</li>
+      <li>Belt Alignment/Repairs</li>
+      <li>Skirt Repairs</li>
+      <li>Auger Repairs</li>
+      <li>PTO Mounting/Repairs</li>
+      <li>Light &amp; Electrical Repairs</li>
+      <li>Chain Repairs</li>
+      <li>Power washing</li>
+      <li>and more</li></ul></div>
+</div>`;
 });
 var index$e = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -7048,7 +7101,8 @@ var index$e = /* @__PURE__ */ Object.freeze({
   "default": Feed_body_repairs
 });
 var Hot_dipped_steel = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return ``;
+  return `<div class="${"w-screen flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg py-8"}"><p>If you need a part or an assembly galvanized, we can assist you accomplishing this as well as help get you a better price. Contact a salesman today to learn more.
+    </p></div></div>`;
 });
 var index$d = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -7056,7 +7110,14 @@ var index$d = /* @__PURE__ */ Object.freeze({
   "default": Hot_dipped_steel
 });
 var Manufacturing = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return ``;
+  return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
+    imageUrl: "'/services/featured-manufacturing.webp'",
+    pageName: "Manufacturing",
+    pageTagline: "We Weld Things"
+  }, {}, {})}
+
+<div class="${"w-screen flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg py-8"}"><p class="${"py-2"}"></p></div>
+</div>`;
 });
 var index$c = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -7072,7 +7133,14 @@ var index$b = /* @__PURE__ */ Object.freeze({
   "default": Truck_repairs
 });
 var Machine_shop = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return ``;
+  return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
+    imageUrl: "'/services/featured-machining.webp'",
+    pageName: "Machining",
+    pageTagline: "We measure in thousandths"
+  }, {}, {})}
+
+<div class="${"w-screen flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg py-8"}"><p class="${"py-2"}">We use manual lathes, drill presses, milling machine, and a CNC machining center. We make use of both Solidworks\xAE and Mastercam\xAE technology to produce detailed parts. Whether your job requires small or large quantities, we can help you.</p></div>
+</div>`;
 });
 var index$a = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -7080,7 +7148,14 @@ var index$a = /* @__PURE__ */ Object.freeze({
   "default": Machine_shop
 });
 var Sandblasting = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return ``;
+  return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
+    imageUrl: "'/services/featured-drafting.webp'",
+    pageName: "Sandblasting",
+    pageTagline: "It's ready for paint"
+  }, {}, {})}
+
+<div class="${"w-screen flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg py-8"}"><p>Our steel shot sandblasting room is 16\u2019 X 45\u2019. Large enough to blast trucks, trailers, hoppers, and many small parts. MWM\u2019s sandblasting services are perfect for getting your items ready for its protective coat of paint.</p></div>
+</div>`;
 });
 var index$9 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -7096,7 +7171,14 @@ var index$8 = /* @__PURE__ */ Object.freeze({
   "default": Consulting
 });
 var Drafting = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return ``;
+  return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
+    imageUrl: "'/services/featured-drafting.webp'",
+    pageName: "Drafting",
+    pageTagline: "Often just Reverse Engineering"
+  }, {}, {})}
+
+<div class="${"w-screen flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg py-8"}"><p>We rely on state-of-the-art Solidworks\xAE application and system and our draftsmen to take your idea from conception to completion in a detailed manner. We take the time to get a solid understanding of what you need and have in-house draftsmen that make sure to keep you involved so you are able to receive your purpose-fit part or product. We are capable of producing drawings that require only one item, or hundreds of items with multiple sub-assemblies.</p></div>
+</div>`;
 });
 var index$7 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -7112,7 +7194,15 @@ var index$6 = /* @__PURE__ */ Object.freeze({
   "default": Painting
 });
 var Waterjet = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return ``;
+  return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
+    imageUrl: "'/services/featured-waterjet.webp'",
+    pageName: "Waterjet",
+    pageTagline: "Watch your Fingers"
+  }, {}, {})}
+
+<div class="${"w-screen flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg py-8"}"><p class="${"py-2"}">Operating at 60,000 PSI, moving in 2 computer-controlled directions, on a cutting surface that is 6\u2019 X 12\u2019, our waterjet is able to cut material of a very wide range of types and thicknesses with water and garnet. We have experience with very thin rubbers, plywood, plexiglass, UHMW, Aluminum, Steel, Marble and Granite. This method is superior to laser and plasma because it can cut materials that would otherwise melt or burn, like rubber, plastics and wood.</p>
+    <p class="${"py-2"}">The waterjet\u2019s application is perfectly suited for prototypes, part replacements, templates, blanks, signs and bulk part orders. Contact us today to find out how we can serve you!</p></div>
+</div>`;
 });
 var index$5 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -7128,7 +7218,14 @@ var index$4 = /* @__PURE__ */ Object.freeze({
   "default": Parts
 });
 var Road = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return ``;
+  return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
+    imageUrl: "'/services/featured-millwright.webp'",
+    pageName: "Road/Millwrights",
+    pageTagline: "Whatever it Takes"
+  }, {}, {})}
+
+<div class="${"w-screen flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg py-8"}"><p class="${"py-2"}">We regularly send multiple crews to different locations to install or repair equipment. Our crews come with a large supply of tools and a great deal of knowledge. We understand your desire to use and maintain the equipment you have and won\u2019t push you to purchase new equipment if we can make what you have work. We believe we are your best option for <b>\u201CRepairing Your Past . . . and Fabricating Your Future.\u201D</b></p></div>
+</div>`;
 });
 var index$3 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -7136,17 +7233,19 @@ var index$3 = /* @__PURE__ */ Object.freeze({
   "default": Road
 });
 var Contact = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let name;
+  let email;
   return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
     imageUrl: "'/featured-about.webp'",
     pageName: "Contact Us",
     pageTagline: "Looking Forward to Hearing from You"
   }, {}, {})}
 
-<div class="${"w-screen flex justify-center bg-blue py-8"}"><form method="${"post"}" name="${"contactUs"}" data-netlify="${"true"}" class="${"w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2"}"><div class="${"m-3"}"><input class="${"w-full "}" type="${"text"}" placeholder="${"Name"}"></div>
-      <div class="${"m-3"}"><input class="${"w-full "}" type="${"text"}" placeholder="${"Email"}"></div>
+<div class="${"w-screen flex justify-center bg-blue py-8"}"><form method="${"post"}" name="${"contactUs"}" data-netlify="${"true"}" class="${"w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2"}"><div class="${"m-3"}"><input class="${"w-full p-2"}" type="${"text"}" placeholder="${"Name"}"${add_attribute("value", name, 0)}></div>
+      <div class="${"m-3"}"><input class="${"w-full p-2"}" type="${"text"}" placeholder="${"Email"}"${add_attribute("value", email, 0)}></div>
       <div class="${"col-span-2 m-3"}"><p class="${"text-white"}">Message: </p>
-        <textarea class="${"w-full"}" rows="${"5"}"></textarea></div>
-      <div class="${"col-span-2 text-right"}"><button type="${"submit"}" class="${"border-2 border-blue-400 text-blue-400 mr-3 py-2 px-5 rounded-sm font-semibold text-xl"}">Submit</button></div></form></div>
+        <textarea class="${"w-full p-2"}" rows="${"5"}">${""}</textarea></div>
+      <div class="${"col-span-2 text-right"}"><button class="${"border-2 border-blue-400 text-blue-400 mr-3 py-2 px-5 rounded-sm font-semibold text-xl"}">Submit</button></div></form></div>
 
 <div class="${"w-screen flex justify-center bg-white my-8"}"><div class="${"w-full max-w-screen-lg"}"><iframe title="${"MWM Main Office and shops"}" src="${"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.5443209820833!2d-88.84660488422072!3d43.30286358303125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880683153e7957d7%3A0x8d71b0f8462b3eb4!2s202%20Harrison%20St%2C%20Reeseville%2C%20WI%2053579!5e0!3m2!1sen!2sus!4v1633112678297!5m2!1sen!2sus"}" width="${"100%"}" style="${"border:0; aspect-ratio: 16/9"}" allowfullscreen loading="${"lazy"}"></iframe></div></div>
 

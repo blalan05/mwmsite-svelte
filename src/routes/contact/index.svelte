@@ -9,7 +9,7 @@
         <textarea class="w-full p-2" bind:value="{message}" rows="5" />
       </div>
       <div class="col-span-2 text-right">
-        <button on:click="{handleSubmit}" class="border-2 border-blue-400 text-blue-400 mr-3 py-2 px-5 rounded-sm font-semibold text-xl">Submit</button>
+        <button type="submit" class="border-2 border-blue-400 text-blue-400 mr-3 py-2 px-5 rounded-sm font-semibold text-xl">Submit</button>
       </div>
     </form>
 </div>
@@ -30,28 +30,30 @@
 </svelte:head>
 
 <script>
+  export const prerender = true
+
   let name
   let email
   let message
-
+  
   import FeaturedImage from '$lib/featuredImage.svelte'
-  function encode(data) {
-    return Object.keys(data)
-      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&")
-  }
+  // function encode(data) {
+  //   return Object.keys(data)
+  //     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+  //     .join("&")
+  // }
 
-  const handleSubmit = (event) => {
-    event.preventDefault()
-    fetch("/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        'form-name': 'contactUs',
-        'name': name,
-        'email': email,
-        'message': message
-      })
-    }).then(() => console.log("Success"))
-  }
+  // const handleSubmit = (event) => {
+  //   event.preventDefault()
+  //   fetch("/contact", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: encode({
+  //       'form-name': 'contactUs',
+  //       'name': name,
+  //       'email': email,
+  //       'message': message
+  //     })
+  //   }).then(() => console.log("Success"))
+  // }
 </script>
