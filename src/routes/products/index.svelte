@@ -26,6 +26,7 @@
 </svelte:head>
 
 <script>
+  export const prerender = true
   import FeaturedImage from '$lib/featuredImage.svelte'
 
   const products = [

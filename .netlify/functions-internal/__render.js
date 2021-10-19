@@ -6110,9 +6110,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-bc64ff46.js",
+      file: assets + "/_app/start-570047c4.js",
       css: [assets + "/_app/assets/start-d5b4de3e.css"],
-      js: [assets + "/_app/start-bc64ff46.js", assets + "/_app/chunks/vendor-6e21d1eb.js"]
+      js: [assets + "/_app/start-570047c4.js", assets + "/_app/chunks/vendor-6e21d1eb.js"]
     },
     fetched: void 0,
     floc: false,
@@ -6401,7 +6401,7 @@ var module_lookup = {
     return index;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-1371f3ec.js", "css": ["assets/pages/__layout.svelte-f89ecc7b.css"], "js": ["pages/__layout.svelte-1371f3ec.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0ca55794.js", "css": [], "js": ["error.svelte-0ca55794.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-ae09a635.js", "css": ["assets/pages/index.svelte-d627191e.css"], "js": ["pages/index.svelte-ae09a635.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/products/index.svelte": { "entry": "pages/products/index.svelte-9305b3da.js", "css": [], "js": ["pages/products/index.svelte-9305b3da.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/distributors/index.svelte": { "entry": "pages/products/distributors/index.svelte-d5e47d93.js", "css": [], "js": ["pages/products/distributors/index.svelte-d5e47d93.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/feed-bodies/index.svelte": { "entry": "pages/products/feed-bodies/index.svelte-19613054.js", "css": [], "js": ["pages/products/feed-bodies/index.svelte-19613054.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/conveyors/index.svelte": { "entry": "pages/products/conveyors/index.svelte-1437d66f.js", "css": [], "js": ["pages/products/conveyors/index.svelte-1437d66f.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/elevators/index.svelte": { "entry": "pages/products/elevators/index.svelte-0e5954bd.js", "css": [], "js": ["pages/products/elevators/index.svelte-0e5954bd.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/products/catwalks/index.svelte": { "entry": "pages/products/catwalks/index.svelte-b18d12c9.js", "css": [], "js": ["pages/products/catwalks/index.svelte-b18d12c9.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/products/mixers/index.svelte": { "entry": "pages/products/mixers/index.svelte-6be9f548.js", "css": [], "js": ["pages/products/mixers/index.svelte-6be9f548.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/index.svelte": { "entry": "pages/services/index.svelte-b8dece57.js", "css": [], "js": ["pages/services/index.svelte-b8dece57.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/feed-body-repairs/index.svelte": { "entry": "pages/services/feed-body-repairs/index.svelte-398001bd.js", "css": [], "js": ["pages/services/feed-body-repairs/index.svelte-398001bd.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/hot-dipped-steel/index.svelte": { "entry": "pages/services/hot-dipped-steel/index.svelte-52978186.js", "css": [], "js": ["pages/services/hot-dipped-steel/index.svelte-52978186.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/manufacturing/index.svelte": { "entry": "pages/services/manufacturing/index.svelte-7505e8b7.js", "css": [], "js": ["pages/services/manufacturing/index.svelte-7505e8b7.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/truck-repairs/index.svelte": { "entry": "pages/services/truck-repairs/index.svelte-23844ea4.js", "css": [], "js": ["pages/services/truck-repairs/index.svelte-23844ea4.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/machine-shop/index.svelte": { "entry": "pages/services/machine-shop/index.svelte-ca226688.js", "css": [], "js": ["pages/services/machine-shop/index.svelte-ca226688.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/sandblasting/index.svelte": { "entry": "pages/services/sandblasting/index.svelte-87f2f135.js", "css": [], "js": ["pages/services/sandblasting/index.svelte-87f2f135.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/consulting/index.svelte": { "entry": "pages/services/consulting/index.svelte-a7925032.js", "css": [], "js": ["pages/services/consulting/index.svelte-a7925032.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/drafting/index.svelte": { "entry": "pages/services/drafting/index.svelte-dc5ff997.js", "css": [], "js": ["pages/services/drafting/index.svelte-dc5ff997.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/painting/index.svelte": { "entry": "pages/services/painting/index.svelte-f0a659d4.js", "css": [], "js": ["pages/services/painting/index.svelte-f0a659d4.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/waterjet/index.svelte": { "entry": "pages/services/waterjet/index.svelte-e4d3d87e.js", "css": [], "js": ["pages/services/waterjet/index.svelte-e4d3d87e.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/parts/index.svelte": { "entry": "pages/services/parts/index.svelte-72232d1a.js", "css": [], "js": ["pages/services/parts/index.svelte-72232d1a.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/road/index.svelte": { "entry": "pages/services/road/index.svelte-41cbcaf4.js", "css": [], "js": ["pages/services/road/index.svelte-41cbcaf4.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/contact/index.svelte": { "entry": "pages/contact/index.svelte-064268b7.js", "css": [], "js": ["pages/contact/index.svelte-064268b7.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/vendors/index.svelte": { "entry": "pages/vendors/index.svelte-1467a960.js", "css": ["assets/pages/vendors/index.svelte-3c78839b.css"], "js": ["pages/vendors/index.svelte-1467a960.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/about/index.svelte": { "entry": "pages/about/index.svelte-38a7f724.js", "css": [], "js": ["pages/about/index.svelte-38a7f724.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-1371f3ec.js", "css": ["assets/pages/__layout.svelte-f89ecc7b.css"], "js": ["pages/__layout.svelte-1371f3ec.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-0ca55794.js", "css": [], "js": ["error.svelte-0ca55794.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-bb1d8fe8.js", "css": ["assets/pages/index.svelte-d627191e.css"], "js": ["pages/index.svelte-bb1d8fe8.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/products/index.svelte": { "entry": "pages/products/index.svelte-0121c8c9.js", "css": [], "js": ["pages/products/index.svelte-0121c8c9.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/distributors/index.svelte": { "entry": "pages/products/distributors/index.svelte-d5e47d93.js", "css": [], "js": ["pages/products/distributors/index.svelte-d5e47d93.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/feed-bodies/index.svelte": { "entry": "pages/products/feed-bodies/index.svelte-19613054.js", "css": [], "js": ["pages/products/feed-bodies/index.svelte-19613054.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/conveyors/index.svelte": { "entry": "pages/products/conveyors/index.svelte-e32df159.js", "css": [], "js": ["pages/products/conveyors/index.svelte-e32df159.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/products/elevators/index.svelte": { "entry": "pages/products/elevators/index.svelte-0e5954bd.js", "css": [], "js": ["pages/products/elevators/index.svelte-0e5954bd.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/products/catwalks/index.svelte": { "entry": "pages/products/catwalks/index.svelte-b18d12c9.js", "css": [], "js": ["pages/products/catwalks/index.svelte-b18d12c9.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/products/mixers/index.svelte": { "entry": "pages/products/mixers/index.svelte-6be9f548.js", "css": [], "js": ["pages/products/mixers/index.svelte-6be9f548.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/index.svelte": { "entry": "pages/services/index.svelte-7af8ae48.js", "css": [], "js": ["pages/services/index.svelte-7af8ae48.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/feed-body-repairs/index.svelte": { "entry": "pages/services/feed-body-repairs/index.svelte-398001bd.js", "css": [], "js": ["pages/services/feed-body-repairs/index.svelte-398001bd.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/hot-dipped-steel/index.svelte": { "entry": "pages/services/hot-dipped-steel/index.svelte-63c49ad2.js", "css": [], "js": ["pages/services/hot-dipped-steel/index.svelte-63c49ad2.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/manufacturing/index.svelte": { "entry": "pages/services/manufacturing/index.svelte-7505e8b7.js", "css": [], "js": ["pages/services/manufacturing/index.svelte-7505e8b7.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/truck-repairs/index.svelte": { "entry": "pages/services/truck-repairs/index.svelte-23844ea4.js", "css": [], "js": ["pages/services/truck-repairs/index.svelte-23844ea4.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/machine-shop/index.svelte": { "entry": "pages/services/machine-shop/index.svelte-ca226688.js", "css": [], "js": ["pages/services/machine-shop/index.svelte-ca226688.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/sandblasting/index.svelte": { "entry": "pages/services/sandblasting/index.svelte-113f61be.js", "css": [], "js": ["pages/services/sandblasting/index.svelte-113f61be.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/consulting/index.svelte": { "entry": "pages/services/consulting/index.svelte-a7925032.js", "css": [], "js": ["pages/services/consulting/index.svelte-a7925032.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/drafting/index.svelte": { "entry": "pages/services/drafting/index.svelte-20e2c344.js", "css": [], "js": ["pages/services/drafting/index.svelte-20e2c344.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/painting/index.svelte": { "entry": "pages/services/painting/index.svelte-f0a659d4.js", "css": [], "js": ["pages/services/painting/index.svelte-f0a659d4.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/waterjet/index.svelte": { "entry": "pages/services/waterjet/index.svelte-e4d3d87e.js", "css": [], "js": ["pages/services/waterjet/index.svelte-e4d3d87e.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/services/parts/index.svelte": { "entry": "pages/services/parts/index.svelte-72232d1a.js", "css": [], "js": ["pages/services/parts/index.svelte-72232d1a.js", "chunks/vendor-6e21d1eb.js"], "styles": [] }, "src/routes/services/road/index.svelte": { "entry": "pages/services/road/index.svelte-41cbcaf4.js", "css": [], "js": ["pages/services/road/index.svelte-41cbcaf4.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/contact/index.svelte": { "entry": "pages/contact/index.svelte-488ec20d.js", "css": [], "js": ["pages/contact/index.svelte-488ec20d.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/vendors/index.svelte": { "entry": "pages/vendors/index.svelte-1467a960.js", "css": ["assets/pages/vendors/index.svelte-3c78839b.css"], "js": ["pages/vendors/index.svelte-1467a960.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] }, "src/routes/about/index.svelte": { "entry": "pages/about/index.svelte-e88b3a3b.js", "css": [], "js": ["pages/about/index.svelte-e88b3a3b.js", "chunks/vendor-6e21d1eb.js", "chunks/featuredImage-955cf1b2.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -6591,6 +6591,9 @@ var ServiceRegions = create_ssr_component(($$result, $$props, $$bindings, slots)
 </div>`;
 });
 var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const prerender = true;
+  if ($$props.prerender === void 0 && $$bindings.prerender && prerender !== void 0)
+    $$bindings.prerender(prerender);
   return `${validate_component(HomeBanner, "HomeBanner").$$render($$result, {}, {}, {})}
 ${validate_component(HomeQuickContact, "QuickContact").$$render($$result, {}, {}, {})}
 ${validate_component(ServiceHighligt, "ServiceHighlights").$$render($$result, {}, {}, {})}
@@ -6618,6 +6621,7 @@ var FeaturedImage = create_ssr_component(($$result, $$props, $$bindings, slots) 
       <h2 class="${"text-white"}">${escape(pageTagline)}</h2>`}</div></div>`;
 });
 var Products = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const prerender = true;
   const products = [
     {
       title: "Feed Bodies",
@@ -6650,6 +6654,8 @@ var Products = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       image: "/products/products-catwalks.webp"
     }
   ];
+  if ($$props.prerender === void 0 && $$bindings.prerender && prerender !== void 0)
+    $$bindings.prerender(prerender);
   return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
     imageUrl: "'/products/featured-products.webp'",
     pageName: "Products",
@@ -6935,6 +6941,9 @@ var index$k = /* @__PURE__ */ Object.freeze({
   "default": Feed_bodies
 });
 var Conveyors = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const prerender = true;
+  if ($$props.prerender === void 0 && $$bindings.prerender && prerender !== void 0)
+    $$bindings.prerender(prerender);
   return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
     imageUrl: "'/products/featured-conveyors.webp'",
     pageName: "Conveyors",
@@ -6995,6 +7004,7 @@ var index$g = /* @__PURE__ */ Object.freeze({
   "default": Mixers
 });
 var Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const prerender = true;
   const services = [
     {
       title: "Feed Body Repairs",
@@ -7053,6 +7063,8 @@ var Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       link: "/services/consulting"
     }
   ];
+  if ($$props.prerender === void 0 && $$bindings.prerender && prerender !== void 0)
+    $$bindings.prerender(prerender);
   return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
     imageUrl: "'/featured-about.webp'",
     pageName: "Services",
@@ -7101,8 +7113,12 @@ var index$e = /* @__PURE__ */ Object.freeze({
   "default": Feed_body_repairs
 });
 var Hot_dipped_steel = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const prerender = true;
+  if ($$props.prerender === void 0 && $$bindings.prerender && prerender !== void 0)
+    $$bindings.prerender(prerender);
   return `<div class="${"w-screen flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg py-8"}"><p>If you need a part or an assembly galvanized, we can assist you accomplishing this as well as help get you a better price. Contact a salesman today to learn more.
-    </p></div></div>`;
+    </p></div>
+</div>`;
 });
 var index$d = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -7148,6 +7164,9 @@ var index$a = /* @__PURE__ */ Object.freeze({
   "default": Machine_shop
 });
 var Sandblasting = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const prerender = true;
+  if ($$props.prerender === void 0 && $$bindings.prerender && prerender !== void 0)
+    $$bindings.prerender(prerender);
   return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
     imageUrl: "'/services/featured-drafting.webp'",
     pageName: "Sandblasting",
@@ -7171,6 +7190,9 @@ var index$8 = /* @__PURE__ */ Object.freeze({
   "default": Consulting
 });
 var Drafting = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const prerender = true;
+  if ($$props.prerender === void 0 && $$bindings.prerender && prerender !== void 0)
+    $$bindings.prerender(prerender);
   return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
     imageUrl: "'/services/featured-drafting.webp'",
     pageName: "Drafting",
@@ -7233,8 +7255,11 @@ var index$3 = /* @__PURE__ */ Object.freeze({
   "default": Road
 });
 var Contact = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const prerender = true;
   let name;
   let email;
+  if ($$props.prerender === void 0 && $$bindings.prerender && prerender !== void 0)
+    $$bindings.prerender(prerender);
   return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
     imageUrl: "'/featured-about.webp'",
     pageName: "Contact Us",
@@ -7245,7 +7270,7 @@ var Contact = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       <div class="${"m-3"}"><input class="${"w-full p-2"}" type="${"text"}" placeholder="${"Email"}"${add_attribute("value", email, 0)}></div>
       <div class="${"col-span-2 m-3"}"><p class="${"text-white"}">Message: </p>
         <textarea class="${"w-full p-2"}" rows="${"5"}">${""}</textarea></div>
-      <div class="${"col-span-2 text-right"}"><button class="${"border-2 border-blue-400 text-blue-400 mr-3 py-2 px-5 rounded-sm font-semibold text-xl"}">Submit</button></div></form></div>
+      <div class="${"col-span-2 text-right"}"><button type="${"submit"}" class="${"border-2 border-blue-400 text-blue-400 mr-3 py-2 px-5 rounded-sm font-semibold text-xl"}">Submit</button></div></form></div>
 
 <div class="${"w-screen flex justify-center bg-white my-8"}"><div class="${"w-full max-w-screen-lg"}"><iframe title="${"MWM Main Office and shops"}" src="${"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.5443209820833!2d-88.84660488422072!3d43.30286358303125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880683153e7957d7%3A0x8d71b0f8462b3eb4!2s202%20Harrison%20St%2C%20Reeseville%2C%20WI%2053579!5e0!3m2!1sen!2sus!4v1633112678297!5m2!1sen!2sus"}" width="${"100%"}" style="${"border:0; aspect-ratio: 16/9"}" allowfullscreen loading="${"lazy"}"></iframe></div></div>
 
@@ -7391,6 +7416,9 @@ var index$1 = /* @__PURE__ */ Object.freeze({
   "default": Vendors
 });
 var About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const prerender = true;
+  if ($$props.prerender === void 0 && $$bindings.prerender && prerender !== void 0)
+    $$bindings.prerender(prerender);
   return `${validate_component(FeaturedImage, "FeaturedImage").$$render($$result, {
     imageUrl: "'/featured-about.webp'",
     pageName: "ABOUT MWM",

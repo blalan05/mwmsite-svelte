@@ -5,3 +5,7 @@
     </p>
   </div>
 </div>
+
+<script>
+  export const prerender = true
+</script>

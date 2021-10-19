@@ -17,6 +17,7 @@
 </div>
 
 <script>
+  export const prerender = true
   import FeaturedImage from '$lib/featuredImage.svelte'
 
   const services = [

@@ -10,13 +10,12 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-		hydrate: true,
 		adapter: adapter(),
 		prerender: {
 			crawl: true,
 			enabled: true,
-			force: true,
-			pages: ['*'],
+			onError: 'continue',
+			entries: ['*'],
 		},
 	}
 };
