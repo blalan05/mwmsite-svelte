@@ -7,7 +7,7 @@
         <h4 class="text-3xl font-semibold text-shadow">{ contact.title }</h4>
         <p class="text-xl font-bold text-shadow">{ contact.contact }</p>
         <p class="text-xl">
-          <a class="inline-block font-bold py-2 text-shadow" rel="external" href="tel:{contact.contact}">
+          <a class="inline-block font-bold py-2 text-shadow" rel="external" href="tel:{contact.phone}">
             <img src="/phone-solid.svg" alt="call" class="w-5 inline-block">
             {contact.phone}
           </a>

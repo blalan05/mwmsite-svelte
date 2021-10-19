@@ -4,7 +4,7 @@
       <h1 class="text-white font-extrabold uppercase text-shadow text-center pb-2 mb-5">Midwest Welding & Manufacturing</h1>
       <h2 class="text-white font-extrabold uppercase text-shadow text-center pb-2 mb-14">Repairing Your Past...Fabricating Your Future</h2>
       <div class="text-center">
-        <a href="/" class="inline-block mt-3 rounded bg-white py-3 px-5 text-xl hover:text-white hover:bg-transparent border-solid border-2 border-white">Tell Us About Your Project</a>
+        <a href="/contact" class="inline-block mt-3 rounded bg-white py-3 px-5 text-xl hover:text-white hover:bg-transparent border-solid border-2 border-white">Tell Us About Your Project</a>
       </div>
     </div>
     <div class="mt-7 w-full max-w-ninety lg:max-w-screen-lg mx-auto">

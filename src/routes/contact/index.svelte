@@ -2,11 +2,11 @@
 
 <div class="w-screen flex justify-center bg-blue py-8">
   <form method="post" name="contactUs" data-netlify="true" class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2">
-      <div class="m-3"><input class="w-full" bind:value="{name}" type="text" placeholder="Name" /></div>
-      <div class="m-3"><input class="w-full" bind:value="{email}" type="text" placeholder="Email" /></div>
+      <div class="m-3"><input class="w-full p-2" bind:value="{name}" type="text" placeholder="Name" /></div>
+      <div class="m-3"><input class="w-full p-2" bind:value="{email}" type="text" placeholder="Email" /></div>
       <div class="col-span-2 m-3">
         <p class="text-white">Message: </p>
-        <textarea class="w-full" bind:value="{message}" rows="5" />
+        <textarea class="w-full p-2" bind:value="{message}" rows="5" />
       </div>
       <div class="col-span-2 text-right">
         <button on:click="{handleSubmit}" class="border-2 border-blue-400 text-blue-400 mr-3 py-2 px-5 rounded-sm font-semibold text-xl">Submit</button>

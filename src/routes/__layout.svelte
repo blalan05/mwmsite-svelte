@@ -65,7 +65,6 @@
         {#each menu_items as item}
         <li><a href="{item.route}" class="py-2 text-base inline-block">{item.text}</a></li>
         {/each}
-        <li><a href="/sitemap.txt">Sitemap</a></li>
       </ul>
     </nav>
   </div>
