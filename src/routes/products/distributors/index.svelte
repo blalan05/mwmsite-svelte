@@ -4,6 +4,9 @@
   <div class="w-full max-w-ninety lg:max-w-screen-lg"></div>
 </div>
 
+<script context="module">
+  export const prerender = true
+</script>
 <script>
   import FeaturedImage from '$lib/featuredImage.svelte'
 </script>

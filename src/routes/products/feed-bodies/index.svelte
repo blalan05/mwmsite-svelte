@@ -79,6 +79,10 @@
   />
 </svelte:head>
 
+<script context="module">
+  export const prerender = true
+</script>
+
 <script>
   import { quintOut } from 'svelte/easing';
   import { slide } from 'svelte/transition';

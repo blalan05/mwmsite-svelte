@@ -1,5 +1,7 @@
-<script>
+<script context="module">
   export const prerender = true
+</script>
+<script>
   import HomeBanner from '$lib/home/homeBanner.svelte'
   import QuickContact from '$lib/home/homeQuickContact.svelte'
   import ServiceHighlights from '$lib/home/serviceHighligt.svelte'

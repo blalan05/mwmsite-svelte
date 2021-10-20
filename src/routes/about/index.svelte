@@ -27,7 +27,9 @@
   />
 </svelte:head>
 
-<script>
+<script context="module">
   export const prerender = true
+</script>
+<script>
   import FeaturedImage from '$lib/featuredImage.svelte'
 </script>

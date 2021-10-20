@@ -29,9 +29,10 @@
   />
 </svelte:head>
 
-<script>
+<script context="module">
   export const prerender = true
-
+</script>
+<script>
   let name
   let email
   let message
