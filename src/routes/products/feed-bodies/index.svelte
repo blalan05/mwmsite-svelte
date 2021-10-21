@@ -71,7 +71,7 @@
 </div>
 
 <svelte:head>
-  <title>Product: Feed Body | MWM</title>
+  <title>Products: Feed Body | MWM</title>
   <meta name="description" content="MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest." />
   <meta
     name="robots"

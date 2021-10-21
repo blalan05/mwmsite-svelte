@@ -21,7 +21,7 @@
 </div>
 
 <svelte:head>
-  <title>Contact | MWM</title>
+  <title>Contact Us | MWM</title>
   <meta name="description" content="Contact MWM for all your custom made agricultural equipment." />
   <meta
     name="robots"

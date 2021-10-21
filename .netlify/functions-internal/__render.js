@@ -6939,7 +6939,7 @@ var Feed_bodies = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <div class="${"w-screen py-8 flex justify-center"}"><div class="${"w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4"}">${each(gallery, (image) => `<div class="${"w-full"}"><img${add_attribute("src", image.url, 0)} alt="${""}" class="${"w-full"}">
     </div>`)}</div></div>
 
-${$$result.head += `${$$result.title = `<title>Product: Feed Body | MWM</title>`, ""}<meta name="${"description"}" content="${"MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest."}" data-svelte="svelte-mqao62"><meta name="${"robots"}" content="${"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"}" data-svelte="svelte-mqao62">`, ""}`;
+${$$result.head += `${$$result.title = `<title>Products: Feed Body | MWM</title>`, ""}<meta name="${"description"}" content="${"MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest."}" data-svelte="svelte-mqao62"><meta name="${"robots"}" content="${"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"}" data-svelte="svelte-mqao62">`, ""}`;
 });
 var index$k = /* @__PURE__ */ Object.freeze({
   __proto__: null,

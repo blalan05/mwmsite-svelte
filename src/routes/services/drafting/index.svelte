@@ -6,6 +6,15 @@
   </div>
 </div>
 
+<svelte:head>
+  <title>Services: Drafting | MWM</title>
+  <meta name="description" content="MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest." />
+  <meta
+    name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  />
+</svelte:head>
+
 <script context="module">
   export const prerender = true
 </script>

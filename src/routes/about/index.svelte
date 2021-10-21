@@ -19,7 +19,7 @@
 </div>
 
 <svelte:head>
-  <title>About | MWM</title>
+  <title>About Us | MWM</title>
   <meta name="description" content="MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest." />
   <meta
     name="robots"

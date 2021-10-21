@@ -17,7 +17,7 @@
 </div>
 
 <svelte:head>
-  <title>Products | MWM</title>
+  <title>Customized Products | MWM</title>
   <meta name="description" content="MWM has been building custom agricultural equipment for more than 75 years." />
   <meta
     name="robots"
