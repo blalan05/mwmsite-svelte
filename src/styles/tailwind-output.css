@@ -729,6 +729,12 @@ video {
 .ml-5 {
 	margin-left: 1.25rem;
 }
+.mb-2 {
+	margin-bottom: 0.5rem;
+}
+.mt-2 {
+	margin-top: 0.5rem;
+}
 .block {
 	display: block;
 }
@@ -803,6 +809,9 @@ video {
 }
 .gap-4 {
 	gap: 1rem;
+}
+.gap-2 {
+	gap: 0.5rem;
 }
 .gap-x-5 {
 	-moz-column-gap: 1.25rem;
@@ -963,6 +972,12 @@ video {
 }
 .pl-8 {
 	padding-left: 2rem;
+}
+.pl-4 {
+	padding-left: 1rem;
+}
+.pt-5 {
+	padding-top: 1.25rem;
 }
 .text-center {
 	text-align: center;

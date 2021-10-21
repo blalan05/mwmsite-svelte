@@ -31,9 +31,9 @@
     {title: 'Drafting', link: '/services/drafting', image: '/services/services-drafting.webp'},
     {title: 'Sandblasting', link: '/services/sandblasting', image: '/services/services-sandblasting.webp'},
     {title: 'Painting', link: '/services/painting', image: '/services/services-painting.webp'},
-    {title: 'Hot-dipped Steel', link: '/services/hot-dipped-steel'},
-    {title: 'Truck Repairs', link: '/services/truck-repairs'},
-    {title: 'Buy Parts/Materials', link: '/services/parts'},
-    {title: 'Advising/Consulting', link: '/services/consulting'}
+    // {title: 'Hot-dipped Steel', link: '/services/hot-dipped-steel'},
+    // {title: 'Truck Repairs', link: '/services/truck-repairs'},
+    {title: 'Buy Parts/Materials', link: '/services/parts', image: '/services/services-parts.webp'},
+    {title: 'Advising/Consulting', link: '/services/consulting', image: '/services/services-consulting.webp'}
   ]
 </script>
