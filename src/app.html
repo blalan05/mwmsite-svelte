@@ -5,10 +5,18 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			/* abel-regular - latin */
+			@font-face {
+				font-family: 'Abel';
+				font-style: normal;
+				font-weight: 400;
+				src: local(''),
+						url('/fonts/abel-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+						url('/fonts/abel-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+			}
+		</style>
 		%svelte.head%
 	</head>
 	<body>
