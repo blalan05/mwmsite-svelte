@@ -42,14 +42,10 @@
   </div>
 </div>
 
-<svelte:head>
-  <title>Vendors | MWM</title>
-  <meta name="description" content="MWM has relationships with leading industry part suppliers, which enables MWM to pass availability and savings to the customer." />
-  <meta
-    name="robots"
-    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-  />
-</svelte:head>
+<SvelteSEO 
+  title="Industrial Vendors | MWM"
+  description="As custom agricultural equipment manufacturer Midwest Welding & Manufacturing (MWM) has relationships with industry leading vendors. Availability and cost savings we can share with you."
+></SvelteSEO>
 
 <style>
   :global(.list-disc) {
@@ -61,9 +57,9 @@
 <script context="module">
   export const prerender = true
 </script>
-
 <script>
   import FeaturedImage from '$lib/featuredImage.svelte'
+  import SvelteSEO from 'svelte-seo'
 
   const vendors = [
     {

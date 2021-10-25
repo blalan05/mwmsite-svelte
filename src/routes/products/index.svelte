@@ -16,20 +16,18 @@
   </div>
 </div>
 
-<svelte:head>
-  <title>Customized Products | MWM</title>
-  <meta name="description" content="MWM has been building custom agricultural equipment for more than 75 years." />
-  <meta
-    name="robots"
-    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-  />
-</svelte:head>
+
+<SvelteSEO 
+  title="Customized Products | MWM"
+  description="Midwest Welding & Manufacturing (MWM) has a long list of custom agricultural equipment. 75 years of fabrication and service."
+></SvelteSEO>
 
 <script context="module">
   export const prerender = true
 </script>
 <script>
   import FeaturedImage from '$lib/featuredImage.svelte'
+  import SvelteSEO from 'svelte-seo'
 
   const products = [
     {

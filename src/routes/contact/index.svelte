@@ -2,11 +2,11 @@
 
 <div class="w-screen flex justify-center bg-blue py-8">
   <form method="post" name="contactUs" data-netlify="true" class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2">
-      <div class="m-3"><input class="w-full p-2" bind:value="{name}" name="name" type="text" placeholder="Name" /></div>
-      <div class="m-3"><input class="w-full p-2" bind:value="{email}" name="email" type="text" placeholder="Email" /></div>
+      <div class="m-3"><input class="w-full p-2" name="name" type="text" placeholder="Name" /></div>
+      <div class="m-3"><input class="w-full p-2" name="email" type="text" placeholder="Email" /></div>
       <div class="col-span-2 m-3">
         <p class="text-white">Message: </p>
-        <textarea class="w-full p-2" bind:value="{message}" name="message" rows="5" />
+        <textarea class="w-full p-2" name="message" rows="5" />
       </div>
       <div class="col-span-2 text-right">
         <button type="submit" class="border-2 border-blue-400 text-blue-400 mr-3 py-2 px-5 rounded-sm font-semibold text-xl">Submit</button>
@@ -20,41 +20,15 @@
   </div>
 </div>
 
-<svelte:head>
-  <title>Contact Us | MWM</title>
-  <meta name="description" content="Contact MWM for all your custom made agricultural equipment." />
-  <meta
-    name="robots"
-    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-  />
-</svelte:head>
+<SvelteSEO 
+  title="Contact | MWM"
+  description="Contact Midwest Welding & Manufacturing (MWM) today to learn what a custom agricultural equipment we can build, install or service for you."
+></SvelteSEO>
 
 <script context="module">
   export const prerender = true
 </script>
-<script>
-  let name
-  let email
-  let message
-  
+<script>  
   import FeaturedImage from '$lib/featuredImage.svelte'
-  // function encode(data) {
-  //   return Object.keys(data)
-  //     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-  //     .join("&")
-  // }
-
-  // const handleSubmit = (event) => {
-  //   event.preventDefault()
-  //   fetch("/contact", {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-  //     body: encode({
-  //       'form-name': 'contactUs',
-  //       'name': name,
-  //       'email': email,
-  //       'message': message
-  //     })
-  //   }).then(() => console.log("Success"))
-  // }
+  import SvelteSEO from 'svelte-seo'
 </script>

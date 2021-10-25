@@ -16,20 +16,17 @@
   </div>
 </div>
 
-<svelte:head>
-  <title>Professional Services | MWM</title>
-  <meta name="description" content="MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest." />
-  <meta
-    name="robots"
-    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-  />
-</svelte:head>
+<SvelteSEO 
+  title="Professional Services | MWM"
+  description="Midwest Welding & Manufacturing (MWM) has been providing repair services to agricultural equipment in the greater Midwest for 75 years, as Jakel Co, and Midwest General Repair & Fabrication (MGRF)."
+></SvelteSEO>
 
 <script context="module">
   export const prerender = true
 </script>
 <script>
   import FeaturedImage from '$lib/featuredImage.svelte'
+  import SvelteSEO from 'svelte-seo'
 
   const services = [
     {title: 'Feed Body Repairs', link: '/services/feed-body-repairs', image: '/services/services-feed-body-repairs.webp'},
