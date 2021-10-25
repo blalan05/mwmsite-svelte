@@ -43,8 +43,8 @@
 </div>
 
 <SvelteSEO 
-  title="Industrial Vendors | MWM"
-  description="As custom agricultural equipment manufacturer Midwest Welding & Manufacturing (MWM) has relationships with industry leading vendors. Availability and cost savings we can share with you."
+  title="{ vendorsSeo.title }"
+  description="{ vendorsSeo.description }"
 ></SvelteSEO>
 
 <style>
@@ -60,6 +60,8 @@
 <script>
   import FeaturedImage from '$lib/featuredImage.svelte'
   import SvelteSEO from 'svelte-seo'
+
+  import { vendors as vendorsSeo } from '../../seo.js'
 
   const vendors = [
     {

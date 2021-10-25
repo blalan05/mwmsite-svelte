@@ -18,8 +18,8 @@
 
 
 <SvelteSEO 
-  title="Customized Products | MWM"
-  description="Midwest Welding & Manufacturing (MWM) has a long list of custom agricultural equipment. 75 years of fabrication and service."
+  title="{ productsSeo.title }"
+  description="{ productsSeo.description }"
 ></SvelteSEO>
 
 <script context="module">
@@ -28,6 +28,8 @@
 <script>
   import FeaturedImage from '$lib/featuredImage.svelte'
   import SvelteSEO from 'svelte-seo'
+
+  import { products as productsSeo } from '../../seo.js'
 
   const products = [
     {

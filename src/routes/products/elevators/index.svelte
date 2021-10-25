@@ -2,7 +2,7 @@
 
 <div class="w-screen flex justify-center">
   <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">
-    <p>You may have unique and specific needs for moving your product. MGRF has built and installed elevator legs to move many different products of varying consistencies.  We can custom build your elevator leg to fit your needs whether it is a 10’ leg or it reaches over 200’.  We’ve been there.  We’ve done that.  We want to install something that will work for you specifically.</p>
+    <p>You may have unique and specific needs for moving your product. MGRF has built and installed elevator legs to move many different products of varying consistencies. We can custom build your elevator leg to fit your needs whether it is a 10’ leg or it reaches over 200’. We’ve been there. We’ve done that. We want to install something that will work for you specifically.</p>
   </div>
 </div>
 
@@ -33,19 +33,16 @@
   </div>
 </div>
 
-<svelte:head>
-  <title>Products: Elevators | MWM</title>
-  <meta name="description" content="MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest." />
-  <meta
-    name="robots"
-    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-  />
-</svelte:head>
+<SvelteSEO 
+  title="{ elevators.title }"
+  description="{ elevators.description }"
+></SvelteSEO>
 
 <script context="module">
   export const prerender = true
 </script>
-
 <script>
   import FeaturedImage from '$lib/featuredImage.svelte'
+  import SvelteSEO from 'svelte-seo'
+  import { elevators } from '../../../seo.js'
 </script>

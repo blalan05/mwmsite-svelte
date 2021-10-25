@@ -17,8 +17,8 @@
 </div>
 
 <SvelteSEO 
-  title="Professional Services | MWM"
-  description="Midwest Welding & Manufacturing (MWM) has been providing repair services to agricultural equipment in the greater Midwest for 75 years, as Jakel Co, and Midwest General Repair & Fabrication (MGRF)."
+  title="{ servicesSeo.title }"
+  description="{ servicesSeo.description }"
 ></SvelteSEO>
 
 <script context="module">
@@ -27,6 +27,8 @@
 <script>
   import FeaturedImage from '$lib/featuredImage.svelte'
   import SvelteSEO from 'svelte-seo'
+
+  import { services as servicesSeo } from '../../seo.js'
 
   const services = [
     {title: 'Feed Body Repairs', link: '/services/feed-body-repairs', image: '/services/services-feed-body-repairs.webp'},

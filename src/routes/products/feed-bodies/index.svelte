@@ -70,23 +70,20 @@
   </div>
 </div>
 
-<svelte:head>
-  <title>Products: Feed Body | MWM</title>
-  <meta name="description" content="MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest." />
-  <meta
-    name="robots"
-    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-  />
-</svelte:head>
+<SvelteSEO 
+  title="{ feedBodies.title }"
+  description="{ feedBodies.description }"
+></SvelteSEO>
 
 <script context="module">
   export const prerender = true
 </script>
-
 <script>
   import { quintOut } from 'svelte/easing';
   import { slide } from 'svelte/transition';
   import FeaturedImage from '$lib/featuredImage.svelte'
+  import SvelteSEO from 'svelte-seo'
+  import { feedBodies } from '../../../seo.js'
 
   const content = {
     featured: `<p>MWM has been fabricating Bulk Feed Body Trucks for more than 50 years. It’s with this experience and feedback from Customers that MWM has been a go-to seller for the greater WI Feed industry. Whether it is the level of customization, implementation of high-tech features, quality of build, or excellent customer service, MWM continues to see new and repeat customers each year.</p>

@@ -5,8 +5,8 @@
 <ServiceRegions />
 
 <SvelteSEO 
-title="Home | MWM"
-description="Midwest Welding & Manufacturing (MWM) is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest."
+title="{ home.title}"
+description="{ home.description }"
 ></SvelteSEO>
 
 <script context="module">
@@ -18,4 +18,6 @@ description="Midwest Welding & Manufacturing (MWM) is a custom agricultural equi
   import ServiceHighlights from '$lib/home/serviceHighligt.svelte'
   import ServiceRegions from '$lib/home/serviceRegions.svelte'
   import SvelteSEO from 'svelte-seo'
+
+  import { home } from '../seo.js'
 </script>

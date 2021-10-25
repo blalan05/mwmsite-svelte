@@ -21,8 +21,8 @@
 </div>
 
 <SvelteSEO 
-  title="Contact | MWM"
-  description="Contact Midwest Welding & Manufacturing (MWM) today to learn what a custom agricultural equipment we can build, install or service for you."
+  title="{ contact.title }"
+  description="{ contact.description }"
 ></SvelteSEO>
 
 <script context="module">
@@ -31,4 +31,6 @@
 <script>  
   import FeaturedImage from '$lib/featuredImage.svelte'
   import SvelteSEO from 'svelte-seo'
+
+  import { contact } from '../../seo.js'
 </script>

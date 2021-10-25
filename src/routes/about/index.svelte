@@ -19,8 +19,8 @@
 </div>
 
 <SvelteSEO 
-  title="About | MWM"
-  description="Midwest Welding & Manufacturing (MWM), formerly Jakel Co and Midwest General Repair and Fabrication (MGRF), has 75yrs of providing products and repair services to greater midwest."
+  title="{ about.title }"
+  description="{ about.description }"
 ></SvelteSEO>
 
 <script context="module">
@@ -29,4 +29,6 @@
 <script>
   import FeaturedImage from '$lib/featuredImage.svelte'
   import SvelteSEO from 'svelte-seo'
+
+  import { about } from '../../seo.js'
 </script>
