@@ -32,10 +32,10 @@
       link: '/careers'
     },
     {
-      title: 'MWM Promise',
-      content: 'We will always do the best we can to create a solution to your problem.',
-      image: '/service-promise.webp',
-      link: '#'
+      title: '75 Years of Service',
+      content: 'Started at the Jakel Co., then MGRF. Name has changed, reliable service has not.',
+      image: '/service-75years.webp',
+      link: '/services'
     }
   ]
 

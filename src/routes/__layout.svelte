@@ -62,7 +62,9 @@
     <h4 class="text-center py-1">
       <a href="/careers">Hiring Experts</a>
     </h4>
-    <h4 class="text-center py-1">MWM Promise</h4>
+    <h4 class="text-center py-1">
+      <a href="/services">75 Years of Service</a>
+    </h4>
   </div>
   <div class="text-white text-center">
     <nav>
