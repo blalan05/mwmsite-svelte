@@ -780,6 +780,12 @@ video {
 .max-w-ninety {
 	max-width: 90%;
 }
+.flex-auto {
+	flex: 1 1 auto;
+}
+.flex-shrink {
+	flex-shrink: 1;
+}
 .flex-grow {
 	flex-grow: 1;
 }
@@ -949,6 +955,10 @@ video {
 	padding-top: 0.25rem;
 	padding-bottom: 0.25rem;
 }
+.py-4 {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
 .pt-4 {
 	padding-top: 1rem;
 }
@@ -967,17 +977,14 @@ video {
 .pb-8 {
 	padding-bottom: 2rem;
 }
-.pt-2 {
-	padding-top: 0.5rem;
-}
 .pl-8 {
 	padding-left: 2rem;
 }
-.pl-4 {
-	padding-left: 1rem;
-}
 .pt-5 {
 	padding-top: 1.25rem;
+}
+.pt-2 {
+	padding-top: 0.5rem;
 }
 .text-center {
 	text-align: center;
@@ -1052,6 +1059,9 @@ video {
 }
 .hover\:bg-transparent:hover {
 	background-color: transparent;
+}
+.hover\:bg-blue-transparent:hover {
+	background-color: rgba(0,17,68,0.45);
 }
 .hover\:text-white:hover {
 	--tw-text-opacity: 1;

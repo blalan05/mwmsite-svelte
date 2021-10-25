@@ -49,15 +49,20 @@
     <p>202 Harrison Street</p>
     <p>P.O. Box 39</p>
     <p>Reeseville, WI 53579</p>
-    <p>Phone: (920) 927-3851</p>
-    <p>Fax: (920) 927-5551</p>
+    <p>Phone: <a href="tel:(920) 927-3851">(920) 927-3851</a></p>
   </div>
   <div class="text-white text-center mb-7">
     <h3 class="text-center">Why Choose MWM</h3>
-    <h4 class="text-center">Custom Fabrication</h4>
-    <h4 class="text-center">Industry Vendors</h4>
-    <h4 class="text-center">Hiring Experts</h4>
-    <h4 class="text-center">MWM Promise</h4>
+    <h4 class="text-center py-1">
+      <a href="/products">Custom Fabrication</a>
+    </h4>
+    <h4 class="text-center py-1">
+      <a href="/vendors">Industry Vendors</a>
+    </h4>
+    <h4 class="text-center py-1">
+      <a href="/careers">Hiring Experts</a>
+    </h4>
+    <h4 class="text-center py-1">MWM Promise</h4>
   </div>
   <div class="text-white text-center">
     <nav>

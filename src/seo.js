@@ -8,6 +8,11 @@ export const about = {
   description: 'Midwest Welding & Manufacturing (MWM), formerly Jakel Co and Midwest General Repair and Fabrication (MGRF), has 75yrs of providing products and repair services to greater midwest.'
 }
 
+export const careers = {
+  title: 'Rewarding Careers | MWM',
+  description: 'Midwest Welding & Manufacturing (MWM) has been employing people for 75 years. See our list of available positions and join our team!',
+}
+
 export const vendors = {
   title: 'Industry Vendors | MWM',
   description: 'As custom agricultural equipment manufacturer Midwest Welding & Manufacturing (MWM) has relationships with industry leading vendors. Availability and cost savings we can share with you.'

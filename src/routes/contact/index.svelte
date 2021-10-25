@@ -2,8 +2,8 @@
 
 <div class="w-screen flex justify-center bg-blue py-8">
   <form method="post" name="contactUs" data-netlify="true" class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2">
-      <div class="m-3"><input class="w-full p-2" name="name" type="text" placeholder="Name" /></div>
-      <div class="m-3"><input class="w-full p-2" name="email" type="text" placeholder="Email" /></div>
+      <div class="m-3"><input class="w-full p-2" name="name" type="text" placeholder="Name" required /></div>
+      <div class="m-3"><input class="w-full p-2" name="email" type="text" placeholder="Email" required /></div>
       <div class="col-span-2 m-3">
         <p class="text-white">Message: </p>
         <textarea class="w-full p-2" name="message" rows="5" />
