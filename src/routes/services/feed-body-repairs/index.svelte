@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/services/featured-feed-body-repairs.webp'" pageName="Feed Body Repairs" pageTagline="Keeping the Cows Feed"></FeaturedImage>
+<FeaturedImage imageUrl="'/services/featured-feed-body-repairs.webp'" pageName="Feed Body Repairs" pageTagline=""></FeaturedImage>
 
 <div class="w-screen flex justify-center">
   <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">

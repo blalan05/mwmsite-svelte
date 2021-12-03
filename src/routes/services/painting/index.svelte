@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/services/featured-painting.webp'" pageName="Painting" pageTagline="Little Bit o'Caulk, Make it what it ain't" />
+<FeaturedImage imageUrl="'/services/featured-painting.webp'" pageName="Painting" pageTagline="" />
 
 <div class="w-screen flex justify-center">
   <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">

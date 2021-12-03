@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/services/featured-drafting.webp'" pageName="Drafting" pageTagline="Often just Reverse Engineering"></FeaturedImage>
+<FeaturedImage imageUrl="'/services/featured-drafting.webp'" pageName="Drafting" pageTagline=""></FeaturedImage>
 
 <div class="w-screen flex justify-center">
   <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">

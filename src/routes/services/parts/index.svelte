@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/services/featured-parts.webp'" pageName="Parts" pageTagline="We save everything" />
+<FeaturedImage imageUrl="'/services/featured-parts.webp'" pageName="Parts" pageTagline="" />
 
 <div class="w-screen flex justify-center">
   <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">

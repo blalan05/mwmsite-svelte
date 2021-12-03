@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/services/featured-manufacturing.webp'" pageName="Manufacturing" pageTagline="We Weld Things"></FeaturedImage>
+<FeaturedImage imageUrl="'/services/featured-manufacturing.webp'" pageName="Manufacturing" pageTagline=""></FeaturedImage>
 
 <div class="w-screen flex justify-center">
   <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">
