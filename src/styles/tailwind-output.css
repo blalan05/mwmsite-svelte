@@ -1,4 +1,4 @@
-/*! tailwindcss v2.2.17 | MIT License | https://tailwindcss.com *//*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com *//*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
 Document
@@ -780,9 +780,6 @@ video {
 .max-w-ninety {
 	max-width: 90%;
 }
-.flex-auto {
-	flex: 1 1 auto;
-}
 .flex-shrink {
 	flex-shrink: 1;
 }
@@ -923,6 +920,10 @@ video {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
+.py-1 {
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
 .py-2 {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
@@ -950,14 +951,6 @@ video {
 .py-5 {
 	padding-top: 1.25rem;
 	padding-bottom: 1.25rem;
-}
-.py-1 {
-	padding-top: 0.25rem;
-	padding-bottom: 0.25rem;
-}
-.py-4 {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
 }
 .pt-4 {
 	padding-top: 1rem;

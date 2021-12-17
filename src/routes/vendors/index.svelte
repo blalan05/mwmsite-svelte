@@ -83,7 +83,7 @@
     {
       title: 'Brock',
       content: `
-      <p>Our approach to any project begins with an emphasis on execution excellence through cost and schedule certainty, and is based on our unique combination of safety, service excellence, long-term customer alignment, resource depth, first pass quality, and innovation. Our ultimate focus is the application of quality resources and solutions to deliver value and increase customer satisfaction.</p>
+      <p>Maximize the marketing value of your grain with BROCK SOLID® Systems and solutions for grain storage, handling, conditioning and structures. Safeguarding you grain since 1957.</p>
       `,
       image: '/vendors/brock.webp',
       link: 'https://www.brockgrain.com/index.php'
