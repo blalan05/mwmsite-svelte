@@ -83,7 +83,7 @@
     {
       title: 'Brock',
       content: `
-      <p>Maximize the marketing value of your grain with BROCK SOLID® Systems and solutions for grain storage, handling, conditioning and structures. Safeguarding you grain since 1957.</p>
+      <p>Maximize the marketing value of your grain with BROCK SOLID® Systems and solutions for grain storage, handling, conditioning and structures. Safeguarding your grain since 1957.</p>
       `,
       image: '/vendors/brock.webp',
       link: 'https://www.brockgrain.com/index.php'
