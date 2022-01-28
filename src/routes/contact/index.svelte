@@ -1,7 +1,8 @@
 <FeaturedImage imageUrl="'/featured-about.webp'" pageName="Contact Us" pageTagline="Looking Forward to Hearing from You"></FeaturedImage>
 
 <div class="w-screen flex justify-center bg-blue py-8">
-  <form method="post" name="contactUs" data-netlify="true" class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2">
+  <form method="post" name="contactUs" data-netlify="true" data-netlify-honeypot="bot-field" class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2">
+      <input type="hidden" name="form-name" value="contactUs" />
       <div class="m-3"><input class="w-full p-2" name="name" type="text" placeholder="Name" required /></div>
       <div class="m-3"><input class="w-full p-2" name="email" type="text" placeholder="Email" required /></div>
       <div class="col-span-2 m-3">

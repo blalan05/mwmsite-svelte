@@ -89,6 +89,12 @@
       link: 'https://www.brockgrain.com/index.php'
     },
     {
+      title: 'Greene Galvanized Stairs',
+      content: '<p>We work to continually improve safe access for commodity storage and handling by providing high quality products with exceptional customer service.</p>',
+      image: '/vendors/greene.webp',
+      link: 'https://www.greenestairs.com/home.html'
+    },
+    {
       title: 'Hayes & Stolz',
       content: `
       <p>Located in Burleson, Texas, Hayes & Stolz has achieved worldwide recognition as a leading industrial manufacturer of high performance mixing, material handling, and process equipment for 75 years. Our products are found in some of the largest and most modern processing facilities all around the world. From feed manufacturing for poultry or livestock; to processing food products or pharmaceuticals; to moving and blending sand, concrete, grouts and mortars, Hayes & Stolz is there helping customers to maximize efficiency, productivity and profits.</p>
