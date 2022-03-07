@@ -36,6 +36,7 @@
     {title: 'Road Crew/Millwrights', link: '/services/road', image: '/services/services-millwright.webp'},
     {title: 'Machine Shop', link: '/services/machine-shop', image: '/services/services-machining.webp'},
     {title: 'Waterjet Cutting', link: '/services/waterjet', image: '/services/services-waterjet.webp'},
+    {title: 'Plasma Table', link: '/services/plasma-table', image: '/services/services-plasma_table.webp'},
     {title: 'Drafting', link: '/services/drafting', image: '/services/services-drafting.webp'},
     {title: 'Sandblasting', link: '/services/sandblasting', image: '/services/services-sandblasting.webp'},
     {title: 'Painting', link: '/services/painting', image: '/services/services-painting.webp'},

@@ -122,3 +122,8 @@ export const waterjet = {
   title: '',
   description: ''
 }
+
+export const plasmaTable = {
+  title: '',
+  description: ''
+}
