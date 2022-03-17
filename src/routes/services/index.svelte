@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/featured-about.webp'" pageName="Services" pageTagline="We are ready to serve you"></FeaturedImage>
+<FeaturedImage imageUrl="'/featured-about.webp'" pageName="Services" pageTagline="We are ready to serve you" imagePosition="top"></FeaturedImage>
 
 <div class="w-screen flex justify-center py-8">
   <div class="w-full max-w-ninety">

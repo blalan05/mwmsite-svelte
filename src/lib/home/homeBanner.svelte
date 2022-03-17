@@ -11,10 +11,12 @@
       <hr class="text-white" />
       <div class="grid lg:grid-cols-3 gap-4 mt-5">
         {#each FeaturedServices as service}
-          <div class="text-white bg-red-transparent bg-opacity-70 p-5 mt-0 lg:mt-5">
-            <h3 class="text-">{ service.title }</h3>
-            <p class="leading-relaxed">{ service.content }</p>
-          </div>
+          <a href="{service.link}">
+            <div class="text-white bg-red-transparent bg-opacity-70 p-5 mt-0 lg:mt-5">
+              <h3 class="text-">{ service.title }</h3>
+              <p class="leading-relaxed">{ service.content }</p>
+            </div>
+          </a>
         {/each}
       </div>
     </div>
@@ -34,15 +36,18 @@
   const FeaturedServices = [
     {
       title: 'Field Service',
-      content: 'Whether a difficult repair or equipment installation, our teams are ready for the job.'
+      content: 'Whether a difficult repair or equipment installation, our teams are ready for the job.',
+      link: '/services/road'
     },
     {
       title: 'Shop Services',
-      content: 'Tools and Fabrication ready to accomplish simple or complex jobs.'
+      content: 'Tools and Fabrication ready to accomplish simple or complex jobs.',
+      link: '/services/'
     },
     {
       title: 'Feed Body Services',
-      content: 'Our custom made-to-order Bulk Feed Body Trucks or Semis are perfectly engineered.'
+      content: 'Our custom made-to-order Bulk Feed Body Trucks or Semis are perfectly engineered.',
+      link: '/products/feed-bodies'
     }
   ]
 

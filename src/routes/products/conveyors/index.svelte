@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/products/featured-conveyors.webp'" pageName="Conveyors" pageTagline="" />
+<FeaturedImage imageUrl="'/products/featured-conveyors.webp'" pageName="Conveyors" pageTagline="" imagePosition="top" />
 <div class="w-screen flex justify-center py-8">
   <div class="w-full max-w-ninety lg:max-w-screen-lg">
     <p>MWM has manufactured conveyors for many products in many industries. Our conveyors can be found underground, ground-level, and high in the air. The conveyors are operating in Farms, Feed Mills, Grain Mills, Fertilizer Plants, Milorganite Plants, Chicken Farms and Plants, Hemp Plants, Ethanol Plants, Industrial wood furnace, trade shows, and many more applications.</p>

@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/products/featured-feed-body.webp'" pageName="Bulk Feed Body Trucks" pageTagline="Customizing To Your Needs" />
+<FeaturedImage imageUrl="'/products/featured-feed-body.webp'" pageName="Bulk Feed Body Trucks" pageTagline="Customizing To Your Needs" imagePosition="bottom" />
 <div class="w-screen flex justify-center py-8">
   <div class="w-full max-w-ninety lg:max-w-screen-lg">
     {@html content.featured}

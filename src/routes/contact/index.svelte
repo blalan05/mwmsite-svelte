@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/featured-about.webp'" pageName="Contact Us" pageTagline="Looking Forward to Hearing from You"></FeaturedImage>
+<FeaturedImage imageUrl="'/featured-about.webp'" pageName="Contact Us" pageTagline="Looking Forward to Hearing from You" imagePosition="top"></FeaturedImage>
 
 <div class="w-screen flex justify-center bg-blue py-8">
   <form method="post" name="contactUs" data-netlify="true" data-netlify-honeypot="bot-field" class="w-full max-w-ninety lg:max-w-screen-lg grid grid-cols-2">

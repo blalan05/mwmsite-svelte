@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/featured-about.webp'" pageName="ABOUT MWM" pageTagline="History Rooted in Quality"></FeaturedImage>
+<FeaturedImage imageUrl="'/featured-about.webp'" pageName="ABOUT MWM" pageTagline="History Rooted in Quality" imagePosition="top"></FeaturedImage>
 
 <!-- History -->
 <div class="w-screen flex justify-center">

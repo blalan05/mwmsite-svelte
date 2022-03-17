@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/products/featured-mixers.webp'" pageName="Mixers" pageTagline=""></FeaturedImage>
+<FeaturedImage imageUrl="'/products/featured-mixers.webp'" pageName="Mixers" pageTagline="" imagePosition="center"></FeaturedImage>
 
 <div class="w-screen flex justify-center bg-blue text-white">
   <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">

@@ -893,6 +893,18 @@ video {
 .bg-center {
 	background-position: center;
 }
+.bg-bottom {
+	background-position: bottom;
+}
+.bg-top {
+	background-position: top;
+}
+.bg-right {
+	background-position: right;
+}
+.bg-left {
+	background-position: left;
+}
 .bg-no-repeat {
 	background-repeat: no-repeat;
 }

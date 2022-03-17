@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/services/featured-millwright.webp'" pageName="Road/Millwrights" pageTagline=""></FeaturedImage>
+<FeaturedImage imageUrl="'/services/featured-millwright.webp'" pageName="Road/Millwrights" pageTagline="" imagePosition="center"></FeaturedImage>
 
 <div class="w-screen flex justify-center">
   <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">

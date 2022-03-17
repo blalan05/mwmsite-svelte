@@ -64,18 +64,18 @@ export const services = {
 }
 
 export const consulting = {
-  title: '',
-  description: ''
+  title: 'Consulting Services | MWM',
+  description: 'Midwest Welding & Manufacturing (MWM) has many years of experience in the agricultural, fertilizer/agronomy and feed mill industries. We can provide you with educated and learned experience.'
 }
 
 export const drafting = {
-  title: '',
-  description: ''
+  title: 'Drafting Services | MWM',
+  description: 'Midwest Welding & Manufacturing (MWM) has trained and skills draftsmen that can take your ideas or parts and turn them into prints.'
 }
 
 export const feedBodyRepairs = {
-  title: '',
-  description: ''
+  title: 'Bulk Feed Body Repairs',
+  description: 'Midwest Welding & Manfucturing (MWM) has offered repair services on all brands of Feed Bodies for more then 50 years.'
 }
 
 export const hotDippedSteel = {
@@ -84,13 +84,13 @@ export const hotDippedSteel = {
 }
 
 export const machineShop = {
-  title: '',
-  description: ''
+  title: 'Machining Services | MWM',
+  description: 'MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest.'
 }
 
 export const manufacturing = {
-  title: '',
-  description: ''
+  title: 'Manufacturing and Fabrication Services | MWM',
+  description: 'MWM is a custom agricultural equipment manufacturer with 75yrs of providing products and repair services to greater midwest.'
 }
 
 export const painting = {

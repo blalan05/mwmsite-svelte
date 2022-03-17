@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/products/featured-products.webp'" pageName="Products" pageTagline="Custom-made for every need"></FeaturedImage>
+<FeaturedImage imageUrl="'/products/featured-products.webp'" pageName="Products" pageTagline="Custom-made for every need" imagePosition="center"></FeaturedImage>
 
 <div class="w-screen my-8 flex justify-center">
   <div class="w-full max-w-ninety">

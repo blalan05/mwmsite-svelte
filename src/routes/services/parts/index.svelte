@@ -1,4 +1,4 @@
-<FeaturedImage imageUrl="'/services/featured-parts.webp'" pageName="Parts" pageTagline="" />
+<FeaturedImage imageUrl="'/services/featured-parts.webp'" pageName="Parts" pageTagline="" imagePosition="center" />
 
 <div class="w-screen flex justify-center">
   <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">
