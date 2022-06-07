@@ -3,7 +3,7 @@
 <div class="w-screen flex justify-center">
   <div class="w-full max-w-ninety lg:max-w-screen-lg py-8">
     <h3>Currently Hiring for:</h3>
-    <div>
+    <div class="pb-8">
       {#each careers as career}
       <div class="flex">
         <div class="flex-grow">
@@ -17,6 +17,7 @@
       </div>
       {/each}
     </div>
+    <div class="pt-8"><a href="https://transparency-in-coverage.uhc.com/" title="Transparency in Coverage">TiC</a></div>
   </div>
 </div>
 
