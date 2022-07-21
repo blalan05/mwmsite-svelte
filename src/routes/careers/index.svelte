@@ -5,7 +5,7 @@
     <h3>Currently Hiring for:</h3>
     <div class="pb-8">
       {#each careers as career}
-      <div class="flex">
+      <div class="flex py-3">
         <div class="flex-grow">
           <h4>{ career.title}</h4>
           <p>{@html career.description}</p>
@@ -36,9 +36,14 @@
 
   const careers = [
     {
-      title: 'Welder/Fabricator (Aluminum)',
-      description: '<p>Assists our Feed Body Builds and Feed Body Repairs Department.</p>',
-      rate: '$15.00 - $25.00',
+      title: 'Field Service Technician',
+      description: '<p>On-site installation & repair of equipment across a wide variety of industries</p>',
+      rate: ''
+    },
+    {
+      title: 'Shop Team Member',
+      description: '<p>Assists in welding, equipment repair, and building of feed body trucks</p>',
+      rate: ''
     }
   ]
 </script>

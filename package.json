@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev:only": "svelte-kit dev",
+    "dev:only": "vite dev",
     "build:only": "svelte-kit build",
     "preview": "svelte-kit preview",
     "tailwind:watch": "cross-env TAILWIND_MODE=watch cross-env NODE_ENV=development postcss src/styles/tailwind.css -o src/styles/tailwind-output.css -w",
@@ -38,7 +38,8 @@
     "svelte-preprocess": "^4.9.4",
     "tailwindcss": "^2.2.16",
     "tslib": "^2.3.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "vite": "^3.0.2"
   },
   "type": "module",
   "dependencies": {

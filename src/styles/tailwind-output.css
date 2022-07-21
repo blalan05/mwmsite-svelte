@@ -433,11 +433,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   color: #9ca3af;
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  opacity: 1;
-  color: #9ca3af;
-}
-
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
@@ -967,6 +962,10 @@ video {
 	padding-top: 1.25rem;
 	padding-bottom: 1.25rem;
 }
+.py-4 {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
 .pt-4 {
 	padding-top: 1rem;
 }
@@ -979,11 +978,11 @@ video {
 .pb-12 {
 	padding-bottom: 3rem;
 }
-.pl-5 {
-	padding-left: 1.25rem;
-}
 .pb-8 {
 	padding-bottom: 2rem;
+}
+.pl-5 {
+	padding-left: 1.25rem;
 }
 .pl-8 {
 	padding-left: 2rem;
